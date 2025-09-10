@@ -1,10 +1,13 @@
+#!/home/randhal/proj/quals/python/practice/bin/python
+
 """
 Original, vcf2csv.py, writeCSV function author: Bofei
 
 2023 Modified version author: Amanda
     Includes Info column from VCF, splitInfo, CaseID, and ParseCSQ functions
 
-2025 Modified version author: Randhal
+2025 Modified version author: Randhal Ramirez. 
+    Includes solution for Homework 2 and newer functions
 
   <kOrigin>  Includes Info column from VCF, splitInfo, CaseID, and ParseCSQ functions
 """
@@ -111,8 +114,9 @@ def writecsv(inputfile, header):
         ref_seq = []
         alt_seq = []
         info = []
-        # Because the AML and ALL have a reverse order for which comes first in the VCF, the sample[0/1] needed to be changed in order to make sure
-            # the tumor and normal variants were saved to the correct csv. Can be compared to the original PrCa code
+        # Because the AML and ALL have a reverse order for which comes first in the VCF, the sample[0/1] 
+	# needed to be changed in order to make sure
+        # the tumor and normal variants were saved to the correct csv. Can be compared to the original PrCa code
         tumorAD = record.samples[1]["AD"]
         normalAD = record.samples[0]["AD"]
         ########################################### tumor_var #############################################
@@ -132,6 +136,21 @@ def writecsv(inputfile, header):
             
             """
 
+            # Throws the variant away if two out of three are less than 0.05	    
+            if (x/sum < 0.05) + (y/sum < 0.05) + (z/sum < 0.05) >= 2:
+                pass
+
+            #else:
+            #    curr_var.append(record.CHROM)
+            #    left.append(record.POS)
+            #    right.append(record.POS + len(record.ALT))
+            #    ref_seq.append(record.REF)
+            #    alt_seq.append(str((record.ALT[0])))
+            #    refct.append(refcount)
+            #    altct.append(altcount)
+            #    info.append(str(record.INFO))
+            #    lists = curr_var + left + right + ref_seq + alt_seq + var_score + info
+            #    tumor_var.append(lists)
 
 
         ########only 1 base for the ALT sequence
@@ -179,6 +198,21 @@ def writecsv(inputfile, header):
             that passes over variant if the above is not true.
 
             """
+            # Throws the variant away if two out of three are less than 0.05	    
+            if (x/sum < 0.05) + (y/sum < 0.05) + (z/sum < 0.05) >= 2:
+                pass
+
+            #else:
+            #    curr_var.append(record.CHROM)
+            #    left.append(record.POS)
+            #    right.append(record.POS + len(record.ALT))
+            #    ref_seq.append(record.REF)
+            #    alt_seq.append(str((record.ALT[0])))
+            #    refct.append(refcount)
+            #    altct.append(altcount)
+            #    info.append(str(record.INFO))
+            #    lists = curr_var + left + right + ref_seq + alt_seq + var_score + info
+            #    tumor_var.append(lists)
 
 
 
@@ -299,8 +333,8 @@ def writecsv(inputfile, header):
 
 
 ## Make sure you change the directory to where your VCF files are saved on your device
-# os.chdir("/Users/abataycan/AML/AMLFiles")
-# files = os.listdir()
+os.chdir("./practice_vcf/")
+files = os.listdir()
 #
-# for file in files:
-#     writecsv(file, AMLheader)
+for file in files:
+    writecsv(file, AMLheader)
