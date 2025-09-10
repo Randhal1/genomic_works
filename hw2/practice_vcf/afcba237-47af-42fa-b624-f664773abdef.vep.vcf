@@ -1,0 +1,55 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=Tier1,Description="Confident level 1">
+##FILTER=<ID=Tier2,Description="Confident level 2">
+##FILTER=<ID=Tier3,Description="Confident level 3">
+##FILTER=<ID=Tier4,Description="Confident level 4">
+##FILTER=<ID=Tier5,Description="Confident level 5">
+##FILTER=<ID=bPcr,Description="Variant allele shows a bias towards one PCR template strand.">
+##FILTER=<ID=bSeq,Description="Variant allele shows a bias towards one sequencing strand.">
+##FILTER=<ID=oxog,Description="Failed dToxoG">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=BQ,Number=.,Type=Integer,Description="Average base quality for reads supporting alleles">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth at this position in the sample">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=SS,Number=1,Type=Integer,Description="Variant status relative to non-adjacent Normal,0=wildtype,1=germline,2=somatic,3=LOH,4=post-transcriptional modification,5=unknown">
+##INDIVIDUAL=<NAME=TCGA-AB-2808,ID=eefba73e-bf2c-4cac-bd29-8ab3d392aa5b>
+##INFO=<ID=ACGTNacgtnMINUS,Number=10,Type=Integer,Description="The first five numbers correspond to the number of bases on forward reads found to be A, C, G, T, or N, while the last five numbers correspond to bases on reverse reads found to be a, c, g, t, or n on minus stranded PCR templates (only reads with a mapping quality greater or equal to 1, and bases with a base quality greater or equal to 1 were considered).">
+##INFO=<ID=ACGTNacgtnPLUS,Number=10,Type=Integer,Description="The first five numbers correspond to the number of bases on forward reads found to be A, C, G, T, or N, while the last five numbers correspond to bases on reverse reads found to be a, c, g, t, or n on plus stranded PCR templates (only reads with a mapping quality greater or equal to 1, and bases with a base quality greater or equal to 1 were considered).">
+##INFO=<ID=CSQ,Number=.,Type=String,Description="Consequence annotations from Ensembl VEP. Format: Allele|Consequence|IMPACT|SYMBOL|Gene|Feature_type|Feature|BIOTYPE|EXON|INTRON|HGVSc|HGVSp|cDNA_position|CDS_position|Protein_position|Amino_acids|Codons|Existing_variation|ALLELE_NUM|DISTANCE|STRAND|FLAGS|VARIANT_CLASS|SYMBOL_SOURCE|HGNC_ID|CANONICAL|TSL|APPRIS|CCDS|ENSP|SWISSPROT|TREMBL|UNIPARC|RefSeq|GENE_PHENO|SIFT|PolyPhen|DOMAINS|HGVS_OFFSET|GMAF|AFR_MAF|AMR_MAF|EAS_MAF|EUR_MAF|SAS_MAF|AA_MAF|EA_MAF|ExAC_MAF|ExAC_Adj_MAF|ExAC_AFR_MAF|ExAC_AMR_MAF|ExAC_EAS_MAF|ExAC_FIN_MAF|ExAC_NFE_MAF|ExAC_OTH_MAF|ExAC_SAS_MAF|CLIN_SIG|SOMATIC|PHENO|PUBMED|MOTIF_NAME|MOTIF_POS|HIGH_INF_POS|MOTIF_SCORE_CHANGE|ENTREZ|EVIDENCE">
+##INFO=<ID=SOMATIC,Number=0,Type=Flag,Description="Indicates if record is a somatic mutation">
+##SAMPLE=<ID=NORMAL,NAME=TCGA-AB-2808-11D-01W-0755-09,ALIQUOT_ID=92b4a800-c7d2-4f97-94fc-85d30528c574,BAM_ID=eca203f2-92b7-46d6-b73b-65e7a59b6e15>
+##SAMPLE=<ID=TUMOR,NAME=TCGA-AB-2808-03D-01W-0755-09,ALIQUOT_ID=06038210-fb82-4e20-8c82-d6695453eecb,BAM_ID=72e7c4da-1ee4-4da2-b66e-edcdce2a0a39>
+##VEP=v84 cache=/var/lib/cwl/job385829342_cache/gdc_vep_cache/homo_sapiens/84_GRCh38 db=. dbSNP=146 gencode=GENCODE 22 polyphen=2.2.2 HGMD-PUBLIC=20154 genebuild=2014-07 ESP=20141103 COSMIC=75 sift=sift5.2.2 assembly=GRCh38.p5 regbuild=13.0 ClinVar=201601
+##center="NCI Genomic Data Commons (GDC)"
+##contig=<ID=chr1,length=248956422,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr2,length=242193529,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr3,length=198295559,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr4,length=190214555,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr5,length=181538259,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr6,length=170805979,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr7,length=159345973,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr8,length=145138636,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr9,length=138394717,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr10,length=133797422,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr11,length=135086622,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr12,length=133275309,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr13,length=114364328,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr14,length=107043718,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr15,length=101991189,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr16,length=90338345,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr17,length=83257441,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr18,length=80373285,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr19,length=58617616,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr20,length=64444167,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr21,length=46709983,assembly=GRCh38.d1.vd1>
+##contig=<ID=chr22,length=50818468,assembly=GRCh38.d1.vd1>
+##contig=<ID=chrX,length=156040895,assembly=GRCh38.d1.vd1>
+##contig=<ID=chrY,length=57227415,assembly=GRCh38.d1.vd1>
+##contig=<ID=chrM,length=16569,assembly=GRCh38.d1.vd1>
+##fileDate=20170506
+##gdcWorkflow=<ID=somatic_annotation_workflow,Name=muse_annotation,Description="VEP Annotation",Version=1.0>
+##gdcWorkflow=<ID=somatic_mutation_calling_workflow,Name=muse,Description="MuSE Somatic Mutation Calling",Version=1.0>
+##reference=GRCh38.d1.vd1.fa
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NORMAL	TUMOR
+chr1	146084055	.	T	A	.	Tier5	ACGTNacgtnMINUS=2,0,0,79,0,7,0,0,149,0;ACGTNacgtnPLUS=0,0,0,83,0,6,0,0,108,0;CSQ=A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000610925|protein_coding||21/21|ENST00000610925.3:c.2522+9902A>T||-/3670|-/2766|-/921||||1||-1||SNV|HGNC|HGNC:31992||5|||ENSP00000478670||A0A087WUH2|UPI0004E4CA55||||||||||||||||||||||||||||||||100132406|,A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000616399|protein_coding||19/19|ENST00000616399.2:c.*709-17494A>T||-/2656|-/1608|-/535||||1||-1||SNV|HGNC|HGNC:31992||5|||ENSP00000483057||A0A087X029|UPI0004E4CA3F||||||||||||||||||||||||||||||||100132406|,A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000622244|protein_coding||20/20|ENST00000622244.3:c.2586-17494A>T||-/2931|-/2829|-/942||||1||-1||SNV|HGNC|HGNC:31992||5|||ENSP00000479934||A0A087WW47|||||||||||||||||||||||||||||||||100132406|,A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000583866|protein_coding||67/89|ENST00000583866.7:c.8442-146A>T||-/13042|-/11388|-/3795||||1||-1||SNV|HGNC|HGNC:31992|YES|5|||ENSP00000463957||A0A075B762|UPI00051EF319|NM_001039703.5|||||||||||||||||||||||||||||||100132406|,A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000613557|protein_coding||18/18|ENST00000613557.3:c.2361-17494A>T||-/2701|-/2604|-/867||||1||-1||SNV|HGNC|HGNC:31992||5|||ENSP00000482792||A0A087WZN7|UPI0004E4C94E||||||||||||||||||||||||||||||||100132406|,A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000613224|protein_coding||13/13|ENST00000613224.3:c.1491-17494A>T||-/1831|-/1734|-/577||||1||-1||SNV|HGNC|HGNC:31992||5|||ENSP00000477670||A0A087WT85|UPI000292EE86||||||||||||||||||||||||||||||||100132406|,A|intron_variant|MODIFIER|NBPF10|ENSG00000271425|Transcript|ENST00000617010|protein_coding||67/90|ENST00000617010.2:c.567-146A>T||-/11630|-/3720|-/1239||||1||-1||SNV|HGNC|HGNC:31992||5|||ENSP00000479344||A0A087WVC7|||||||||||||||||||||||||||||||||100132406|;SOMATIC	GT:AD:BQ:DP:SS	0/0:771,1:33,33:773	0/1:757,54:33,32:811:2
