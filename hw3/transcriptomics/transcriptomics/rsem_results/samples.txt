@@ -1,0 +1,6 @@
+	pop	sample
+1	atr	atr01
+2	atr	atr02
+3	atr	atr03
+4	ctl	gas01
+5	ctl	gas02
