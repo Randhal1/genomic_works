@@ -1,4 +1,4 @@
-#!/home/randhal/proj/quals/python/practice/bin/python
+#!/Users/randhal/Documents/Interpreters/xptopics/bin/python
 import pandas as pd
 import os
 
