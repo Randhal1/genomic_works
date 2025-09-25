@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#!/Users/randhal/Documents/Interpreters/xptopics/bin/python
-=======
 #!/home/randhal/proj/genomic_env/bin/python
->>>>>>> a21f549 (HW4 in progress)
 import pandas as pd
 import os
 
