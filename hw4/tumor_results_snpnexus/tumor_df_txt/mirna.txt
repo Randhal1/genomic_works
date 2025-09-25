@@ -1,0 +1,2 @@
+Variation ID	Chromosome	Region Start	Region End	Name	Score	Strand	Type
+chr1:28508571:C/A:1	chr1	28508557	28508762	U17b	0	1	HAcaBox

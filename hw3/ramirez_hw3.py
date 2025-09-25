@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/Users/randhal/Documents/Interpreters/xptopics/bin/python
+=======
+#!/home/randhal/proj/genomic_env/bin/python
+>>>>>>> a21f549 (HW4 in progress)
 import pandas as pd
 import os
 
@@ -28,9 +32,6 @@ all_tumor = [pd.read_csv('Tumor_CSV/'+i) for i in os.listdir("Tumor_CSV")]
 combined_normal = pd.concat(all_normal, axis=0)
 combined_tumor = pd.concat(all_tumor, axis=0)
 
-# Randhal: I decided to save the files 
-combined_normal.to_csv("ALL_Normal.csv", index=False)
-combined_tumor.to_csv("ALL_Tumor.csv", index=False)
 
 # Function adds in alt_seq column to, input is a dataframe and function returns a dataframe
 # A small change was made to solve some issues.
@@ -75,8 +76,11 @@ OUTPUT CHECK
 Homework 3.A
 (iv) Run the lines below:
 '''
-print("The number of (Rows, Columns) in Tumor:")
-print(Final_tumor.shape)
 print("The number of (Rows, Columns) in Normal:")
 print(Final_normal.shape)
+print("The number of (Rows, Columns) in Tumor:")
+print(Final_tumor.shape)
 
+# Randhal: I decided to save the files 
+Final_normal.to_csv("ALL_Normal.csv", index=False)
+Final_tumor.to_csv("ALL_Tumor.csv", index=False)

@@ -1,0 +1,5 @@
+##fileformat=VCFv4.1
+##GenomeAssembly=GRCh38/hg38
+##INFO=<ID=RNA,Number=.,Type=String,Description="Overlapping miRNA.Format: 'miRNA(Chromosome:Region start-end:Type)' ">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	28508571	chr1:28508571:C/A:1	.	.	.	.	RNA=U17b(chr1:28508557-28508762:0)
