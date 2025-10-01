@@ -1,4 +1,0 @@
-##fileformat=VCFv4.1
-##GenomeAssembly=GRCh38/hg38
-##INFO=<ID=miRNA,Number=.,Type=String,Description="Overlapping miRNA.Format: 'miRNA(Chromosome:Region start-end:miRBASE accession)' ">
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO

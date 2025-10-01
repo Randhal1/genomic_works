@@ -1,7 +1,0 @@
-##fileformat=VCFv4.1
-##GenomeAssembly=GRCh38/hg38
-##INFO=<ID=GWAS,Number=.,Type=String,Description="Overlapping GWAS entry.Format: 'Pubmed id(Catalogue id:Broad phenotype:Genes:Risk allele: Riask allele frequency)' ">
-#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
-chr1	156913754	chr1:156913754:A/G:1	.	.	.	.	GWAS=29875488(rs12137505:Blood protein levels:PEAR1:rs12137505-G:0.406);32888493(rs12137505:Red blood cell count:.:rs12137505-G:0.426783)
-chr6	31720741	chr6:31720741:T/A:1	.	.	.	.	GWAS=30643251(rs805293:Smoking initiation (ever regular vs never regular) (MTAG):.:0.46);31879980(rs805293:Hypertension:MPIG6B:.)
-chr6	32043581	chr6:32043581:A/G:1	.	.	.	.	GWAS=27863252(rs2856451:Eosinophil counts:TNXB:rs2856451-G:0.5175);27863252(rs2856451:Sum eosinophil basophil counts:TNXB:rs2856451-G:0.5175);27863252(rs2856451:White blood cell count:TNXB:rs2856451-G:0.5174);31217584(rs2856451:White blood cell count:.:rs2856451-?:.);31761296(rs2856451:Appendicular lean mass:.:rs2856451-G:0.519311)

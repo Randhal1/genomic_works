@@ -1,0 +1,411 @@
+Pathway ID	Description	Parent(s)	p-Value	Genes Involved	Variation IDs
+R-HSA-109581	Apoptosis	Programmed Cell Death	0.657964	HIST1H1E,TJP2	chr6:26156427:G/C:1,chr9:69250885:T/G:1
+R-HSA-109582	Hemostasis	Hemostasis	1.000000	CD36,DAGLA,DOCK4,GNAT3,ITGA10	chr11:61743387:T/A:1,chr1:145895756:C/T:1,chr7:111808804:C/T:1,chr7:80474080:T/G:1
+R-HSA-111465	Apoptotic cleavage of cellular proteins	Programmed Cell Death	0.268136	TJP2	chr9:69250885:T/G:1
+R-HSA-111885	Opioid Signalling	Signal Transduction	0.527350	GNAT3	chr7:80474080:T/G:1
+R-HSA-112040	G-protein mediated events	Signal Transduction	0.358489	GNAT3	chr7:80474080:T/G:1
+R-HSA-112043	PLC beta mediated events	Signal Transduction	0.353180	GNAT3	chr7:80474080:T/G:1
+R-HSA-112314	Neurotransmitter receptors and postsynaptic signal transmission	Neuronal System	1.000000	GNAT3	chr7:80474080:T/G:1
+R-HSA-112315	Transmission across Chemical Synapses	Neuronal System	0.727753	GNAT3	chr7:80474080:T/G:1
+R-HSA-112316	Neuronal System	Neuronal System	0.775661	GNAT3,KCNH3	chr12:49557449:T/C:1,chr7:80474080:T/G:1
+R-HSA-114508	Effects of PIP2 hydrolysis	Signal Transduction;Hemostasis	0.198832	DAGLA	chr11:61743387:T/A:1
+R-HSA-114608	Platelet degranulation 	Hemostasis	1.000000	CD36	chr7:80474080:T/G:1
+R-HSA-1170546	Prolactin receptor signaling	Immune System	0.115815	CSH1	chr17:63895212:T/C:1
+R-HSA-1221632	Meiotic synapsis	Reproduction;Cell Cycle	0.136045	DIDO1,SMC1A	chr20:62896722:T/C:1,chrX:53380790:T/C:1
+R-HSA-1236973	Cross-presentation of particulate exogenous antigens (phagosomes)	Immune System	0.063519	CD36	chr7:80474080:T/G:1
+R-HSA-1236974	ER-Phagosome pathway	Immune System	0.495033	CD36	chr7:80474080:T/G:1
+R-HSA-1236975	Antigen processing-Cross presentation	Immune System	0.557621	CD36	chr7:80474080:T/G:1
+R-HSA-1257604	PIP3 activates AKT signaling	Signal Transduction	0.726801	AGO4	chr1:35850806:C/A:1
+R-HSA-1266738	Developmental Biology	Developmental Biology	0.726797	ARPC1B,CD36,COL5A1,ITGA10,MYH9,MYOD1,PLXND1,TIAM1,VLDLR,WDR5	chr11:17721453:C/G:1,chr1:145895756:C/T:1,chr21:31135807:A/G:1,chr22:36320146:C/A:1,chr3:129575694:T/G:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1,chr9:134155272:C/G:1,chr9:134782781:A/G:1,chr9:2644144:G/T:1
+R-HSA-1280215	Cytokine Signaling in Immune system	Immune System	0.424002	BLNK,CD36,CSH1,FCER2,IQGAP1,RASAL2,SPRED3,STAT6,TNFRSF1B	chr10:96227700:G/C:1,chr12:57102572:A/C:1,chr15:90390695:A/G:1,chr17:63895212:T/C:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr19:7699499:C/T:1,chr1:12188701:A/G:1,chr1:178470804:T/C:1,chr7:80474080:T/G:1
+R-HSA-1280218	Adaptive Immune System	Immune System	1.000000	BLNK,CD36,FBXO21,HECW2,LILRA5,PRKN	chr10:96227700:G/C:1,chr12:117174552:T/C:1,chr19:54307267:G/A:1,chr2:196222438:A/C:1,chr6:161549199:T/A:1,chr7:80474080:T/G:1
+R-HSA-1296071	Potassium Channels	Neuronal System	0.572029	KCNH3	chr12:49557449:T/C:1
+R-HSA-1296072	Voltage gated Potassium channels	Neuronal System	0.297646	KCNH3	chr12:49557449:T/C:1
+R-HSA-140342	Apoptosis induced DNA fragmentation	Programmed Cell Death	0.101175	HIST1H1E	chr6:26156427:G/C:1
+R-HSA-1428517	The citric acid (TCA) cycle and respiratory electron transport	Metabolism	1.000000	ETFA	chr15:76261301:A/T:1
+R-HSA-1430728	Metabolism	Metabolism	0.892448	AGXT,AK2,ARSA,BCAN,CD36,CES1,CRAT,CSPG4,ETFA,GALE,IARS,IQGAP1,LPIN1,LPIN3,NUDT10,SULT1A2	chr15:75675473:A/G:1,chr15:76261301:A/T:1,chr15:90390695:A/G:1,chr16:28592021:A/G:1,chr16:55830823:C/A:1,chr1:156652083:T/G:1,chr1:23798309:A/C:1,chr1:33024644:G/C:1,chr20:41345676:A/G:1,chr22:50625611:G/C:1,chr2:11819407:C/G:1,chr2:240869136:A/G:1,chr7:80474080:T/G:1,chr9:129110977:A/C:1,chr9:92274385:C/A:1,chrX:51332989:A/G:1
+R-HSA-1442490	Collagen degradation	Extracellular matrix organization	0.096101	COL11A2,COL5A1	chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-1445148	Translocation of SLC2A4 (GLUT4) to the plasma membrane	Vesicle-mediated transport	0.447004	MYH9	chr22:36320146:C/A:1
+R-HSA-1474165	Reproduction	Reproduction	0.326372	DIDO1,SMC1A	chr20:62896722:T/C:1,chrX:53380790:T/C:1
+R-HSA-1474228	Degradation of the extracellular matrix	Extracellular matrix organization	0.027511	BCAN,BMP1,COL11A2,COL5A1	chr1:156652083:T/G:1,chr6:33171551:C/T:1,chr8:22196292:A/C:1,chr9:134782781:A/G:1
+R-HSA-1474244	Extracellular matrix organization	Extracellular matrix organization	0.099624	BCAN,BMP1,COL11A2,COL5A1,ITGA10	chr1:145895756:C/T:1,chr1:156652083:T/G:1,chr6:33171551:C/T:1,chr8:22196292:A/C:1,chr9:134782781:A/G:1
+R-HSA-1474290	Collagen formation	Extracellular matrix organization	0.037185	BMP1,COL11A2,COL5A1	chr6:33171551:C/T:1,chr8:22196292:A/C:1,chr9:134782781:A/G:1
+R-HSA-1483191	Synthesis of PC	Metabolism	0.021722	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-1483206	Glycerophospholipid biosynthesis	Metabolism	0.281076	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-1483213	Synthesis of PE	Metabolism	0.004852	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-1483249	Inositol phosphate metabolism	Metabolism	0.325978	NUDT10	chrX:51332989:A/G:1
+R-HSA-1483257	Phospholipid metabolism	Metabolism	0.691250	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-1500620	Meiosis	Cell Cycle;Reproduction	0.247713	DIDO1,SMC1A	chr20:62896722:T/C:1,chrX:53380790:T/C:1
+R-HSA-1500931	Cell-Cell communication	Cell-Cell communication	1.000000	IQGAP1	chr15:90390695:A/G:1
+R-HSA-156580	Phase II - Conjugation of compounds	Metabolism	0.589389	SULT1A2	chr16:28592021:A/G:1
+R-HSA-156584	Cytosolic sulfonation of small molecules	Metabolism	0.178830	SULT1A2	chr16:28592021:A/G:1
+R-HSA-157118	Signaling by NOTCH	Signal Transduction	0.049930	ACTA2,AGO4,FCER2,PLXND1,TLE4	chr10:88947447:C/A:1,chr19:7699499:C/T:1,chr1:35850806:C/A:1,chr3:129575694:T/G:1,chr9:79693752:C/G:1
+R-HSA-15869	Metabolism of nucleotides	Metabolism	0.557621	AK2	chr1:33024644:G/C:1
+R-HSA-159227	Transport of the SLBP independent Mature mRNA	Metabolism of RNA	0.249846	NXF1	chr11:62795754:C/G:1
+R-HSA-159230	Transport of the SLBP Dependant Mature mRNA	Metabolism of RNA	0.255992	NXF1	chr11:62795754:C/G:1
+R-HSA-159231	Transport of Mature mRNA Derived from an Intronless Transcript	Metabolism of RNA	0.291839	NXF1	chr11:62795754:C/G:1
+R-HSA-159234	Transport of Mature mRNAs Derived from Intronless Transcripts	Metabolism of RNA	0.297646	NXF1	chr11:62795754:C/G:1
+R-HSA-159236	Transport of Mature mRNA derived from an Intron-Containing Transcript	Metabolism of RNA	0.460533	NXF1	chr11:62795754:C/G:1
+R-HSA-162582	Signal Transduction	Signal Transduction	0.903289	ACTA2,AGO4,ARPC1B,COL11A2,COL5A1,CXCL11,DAGLA,FCER2,GNAT3,IQGAP1,LGR5,LHCGR,MCF2L,MYH9,PLXND1,RASAL2,SMC1A,SPRED3,STAT6,TIAM1,TJP2,TLE4	chr10:88947447:C/A:1,chr11:61743387:T/A:1,chr12:57102572:A/C:1,chr12:71578101:A/C:1,chr13:113046521:T/G:1,chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr19:7699499:C/T:1,chr1:178470804:T/C:1,chr1:35850806:C/A:1,chr21:31135807:A/G:1,chr22:36320146:C/A:1,chr2:48708797:C/G:1,chr3:129575694:T/G:1,chr4:76036090:T/C:1,chr6:33171551:C/T:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1,chr9:134782781:A/G:1,chr9:69250885:T/G:1,chr9:79693752:C/G:1,chrX:53380790:T/C:1
+R-HSA-162587	HIV Life Cycle	Disease	1.000000	RCC1	chr1:28508571:C/A:1
+R-HSA-162599	Late Phase of HIV Life Cycle	Disease	1.000000	RCC1	chr1:28508571:C/A:1
+R-HSA-162710	Synthesis of glycosylphosphatidylinositol (GPI)	Metabolism of proteins	0.137334	PIGO	chr9:35093530:T/C:1
+R-HSA-162906	HIV Infection	Disease	1.000000	RCC1	chr1:28508571:C/A:1
+R-HSA-162909	Host Interactions of HIV factors	Disease	1.000000	RCC1	chr1:28508571:C/A:1
+R-HSA-1630316	Glycosaminoglycan metabolism	Metabolism	0.268941	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-163125	Post-translational modification: synthesis of GPI-anchored proteins	Metabolism of proteins	0.001005	ART3,MDGA1,NTM,OPCML,PIGO	chr11:132146101:C/T:1,chr11:133140763:C/A:1,chr4:76036090:T/C:1,chr6:37650494:G/C:1,chr9:35093530:T/C:1
+R-HSA-163200	Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins.	Metabolism	0.602774	ETFA	chr15:76261301:A/T:1
+R-HSA-1632852	Macroautophagy	Autophagy	0.099846	PCNT,PEX5,PRKN	chr12:7190218:T/G:1,chr21:46351357:C/A:1,chr6:161549199:T/A:1
+R-HSA-163685	Integration of energy metabolism	Metabolism	0.220537	CD36,IQGAP1	chr15:90390695:A/G:1,chr7:80474080:T/G:1
+R-HSA-1638091	Heparan sulfate/heparin (HS-GAG) metabolism	Metabolism	0.074144	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-163841	Gamma carboxylation, hypusine formation and arylsulfatase activation	Metabolism of proteins	0.274134	ARSA	chr22:50625611:G/C:1
+R-HSA-1640170	Cell Cycle	Cell Cycle	0.501879	AKAP9,DIDO1,LPIN1,LPIN3,PCNT,RCC1,SMC1A	chr1:28508571:C/A:1,chr20:41345676:A/G:1,chr20:62896722:T/C:1,chr21:46351357:C/A:1,chr2:11819407:C/G:1,chr7:92040995:G/T:1,chrX:53380790:T/C:1
+R-HSA-1643685	Disease	Disease	1.000000	AKAP9,ARPC1B,BCAN,CD36,CSPG4,GALE,GNAT3,IQGAP1,LHCGR,MYH9,RCC1,SPRED3	chr15:75675473:A/G:1,chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr1:156652083:T/G:1,chr1:23798309:A/C:1,chr1:28508571:C/A:1,chr22:36320146:C/A:1,chr2:48708797:C/G:1,chr7:80474080:T/G:1,chr7:92040995:G/T:1,chr7:99394321:C/T:1
+R-HSA-165054	Rev-mediated nuclear export of HIV RNA	Disease	0.249846	RCC1	chr1:28508571:C/A:1
+R-HSA-1650814	Collagen biosynthesis and modifying enzymes	Extracellular matrix organization	0.017319	BMP1,COL11A2,COL5A1	chr6:33171551:C/T:1,chr8:22196292:A/C:1,chr9:134782781:A/G:1
+R-HSA-166016	Toll Like Receptor 4 (TLR4) Cascade	Immune System	1.000000	CD36	chr7:80474080:T/G:1
+R-HSA-166058	MyD88:MAL(TIRAP) cascade initiated on plasma membrane	Immune System	0.538934	CD36	chr7:80474080:T/G:1
+R-HSA-1660662	Glycosphingolipid metabolism	Metabolism	0.309117	ARSA	chr22:50625611:G/C:1
+R-HSA-1663150	The activation of arylsulfatases	Metabolism of proteins	0.101175	ARSA	chr22:50625611:G/C:1
+R-HSA-166520	Signaling by NTRKs	Signal Transduction	1.000000	TIAM1	chr21:31135807:A/G:1
+R-HSA-168179	Toll Like Receptor TLR1:TLR2 Cascade	Immune System	0.550238	CD36	chr7:80474080:T/G:1
+R-HSA-168188	Toll Like Receptor TLR6:TLR2 Cascade	Immune System	0.538934	CD36	chr7:80474080:T/G:1
+R-HSA-168249	Innate Immune System	Immune System	1.000000	ARPC1B,ARSA,CAT,CD36,IQGAP1,MYH9,PDAP1,STAT6,TNFRSF1B	chr11:34471141:A/C:1,chr12:57102572:A/C:1,chr15:90390695:A/G:1,chr1:12188701:A/G:1,chr22:36320146:C/A:1,chr22:50625611:G/C:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1
+R-HSA-168256	Immune System	Immune System	1.000000	ARPC1B,ARSA,BLNK,CAT,CD36,CSH1,FBXO21,FCER2,HECW2,IQGAP1,LILRA5,MYH9,PDAP1,PRKN,RASAL2,SPRED3,STAT6,TNFRSF1B	chr10:96227700:G/C:1,chr11:34471141:A/C:1,chr12:117174552:T/C:1,chr12:57102572:A/C:1,chr15:90390695:A/G:1,chr17:63895212:T/C:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr19:54307267:G/A:1,chr19:7699499:C/T:1,chr1:12188701:A/G:1,chr1:178470804:T/C:1,chr22:36320146:C/A:1,chr22:50625611:G/C:1,chr2:196222438:A/C:1,chr6:161549199:T/A:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1
+R-HSA-168898	Toll-like Receptor Cascades	Immune System	1.000000	CD36	chr7:80474080:T/G:1
+R-HSA-170670	Adenylate cyclase inhibitory pathway	Signal Transduction;Neuronal System	0.108525	GNAT3	chr7:80474080:T/G:1
+R-HSA-174824	Plasma lipoprotein assembly, remodeling, and clearance	Transport of small molecules	0.114289	BMP1,VLDLR	chr8:22196292:A/C:1,chr9:2644144:G/T:1
+R-HSA-177243	Interactions of Rev with host cellular proteins	Disease	0.262089	RCC1	chr1:28508571:C/A:1
+R-HSA-1793185	Chondroitin sulfate/dermatan sulfate metabolism	Metabolism	0.062764	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-180746	Nuclear import of Rev protein	Disease	0.243649	RCC1	chr1:28508571:C/A:1
+R-HSA-181438	Toll Like Receptor 2 (TLR2) Cascade	Immune System	0.550238	CD36	chr7:80474080:T/G:1
+R-HSA-1834941	STING mediated induction of host immune responses	Immune System	0.123046	STAT6	chr12:57102572:A/C:1
+R-HSA-1834949	Cytosolic sensors of pathogen-associated DNA 	Immune System	0.404370	STAT6	chr12:57102572:A/C:1
+R-HSA-1852241	Organelle biogenesis and maintenance	Organelle biogenesis and maintenance	1.000000	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-1855167	Synthesis of pyrophosphates in the cytosol	Metabolism	0.078765	NUDT10	chrX:51332989:A/G:1
+R-HSA-186763	Downstream signal transduction	Signal Transduction	0.211898	STAT6	chr12:57102572:A/C:1
+R-HSA-186797	Signaling by PDGF	Signal Transduction	0.081265	COL5A1,STAT6	chr12:57102572:A/C:1,chr9:134782781:A/G:1
+R-HSA-189200	Cellular hexose transport	Transport of small molecules	0.158335	SLC2A6	chr9:133472046:G/A:1
+R-HSA-1912408	Pre-NOTCH Transcription and Translation	Signal Transduction	0.568471	AGO4	chr1:35850806:C/A:1
+R-HSA-1912422	Pre-NOTCH Expression and Processing	Signal Transduction	0.622046	AGO4	chr1:35850806:C/A:1
+R-HSA-193648	NRAGE signals death through JNK	Signal Transduction	0.083685	MCF2L,TIAM1	chr13:113046521:T/G:1,chr21:31135807:A/G:1
+R-HSA-193704	p75 NTR receptor-mediated signalling	Signal Transduction	0.187744	MCF2L,TIAM1	chr13:113046521:T/G:1,chr21:31135807:A/G:1
+R-HSA-194315	Signaling by Rho GTPases	Signal Transduction	0.420288	ARPC1B,IQGAP1,MCF2L,MYH9,TIAM1	chr13:113046521:T/G:1,chr15:90390695:A/G:1,chr21:31135807:A/G:1,chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-194840	Rho GTPase cycle	Signal Transduction	0.317355	MCF2L,TIAM1	chr13:113046521:T/G:1,chr21:31135807:A/G:1
+R-HSA-195253	Degradation of beta-catenin by the destruction complex	Signal Transduction	0.503312	TLE4	chr9:79693752:C/G:1
+R-HSA-195258	RHO GTPase Effectors	Signal Transduction	0.747784	ARPC1B,IQGAP1,MYH9	chr15:90390695:A/G:1,chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-195721	Signaling by WNT	Signal Transduction	0.751481	AGO4,LGR5,TLE4	chr12:71578101:A/C:1,chr1:35850806:C/A:1,chr9:79693752:C/G:1
+R-HSA-1971475	A tetrasaccharide linker sequence is required for GAG synthesis	Metabolism	0.018874	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-1980143	Signaling by NOTCH1	Signal Transduction	0.456060	TLE4	chr9:79693752:C/G:1
+R-HSA-1980145	Signaling by NOTCH2	Signal Transduction	0.237402	FCER2	chr19:7699499:C/T:1
+R-HSA-198933	Immunoregulatory interactions between a Lymphoid and a non-Lymphoid cell	Immune System	1.000000	LILRA5	chr19:54307267:G/A:1
+R-HSA-1989781	PPARA activates gene expression	Metabolism	0.615727	CD36	chr7:80474080:T/G:1
+R-HSA-199991	Membrane Trafficking	Vesicle-mediated transport	0.645473	BIN1,CPD,FCHO1,ITSN2,MYH9,SCOC	chr17:30461111:A/T:1,chr19:17774499:G/A:1,chr22:36320146:C/A:1,chr2:127060445:C/T:1,chr2:24209639:T/G:1,chr4:140287063:A/C:1
+R-HSA-199992	trans-Golgi Network Vesicle Budding	Vesicle-mediated transport	0.447004	CPD	chr17:30461111:A/T:1
+R-HSA-201681	TCF dependent signaling in response to WNT	Signal Transduction	0.714687	LGR5,TLE4	chr12:71578101:A/C:1,chr9:79693752:C/G:1
+R-HSA-201722	Formation of the beta-catenin:TCF transactivating complex	Signal Transduction	0.523425	TLE4	chr9:79693752:C/G:1
+R-HSA-202040	G-protein activation	Signal Transduction	0.205392	GNAT3	chr7:80474080:T/G:1
+R-HSA-2022090	Assembly of collagen fibrils and other multimeric structures	Extracellular matrix organization	0.013473	BMP1,COL11A2,COL5A1	chr6:33171551:C/T:1,chr8:22196292:A/C:1,chr9:134782781:A/G:1
+R-HSA-2022377	Metabolism of Angiotensinogen to Angiotensins	Metabolism of proteins	0.137334	CES1	chr16:55830823:C/A:1
+R-HSA-2022870	Chondroitin sulfate biosynthesis	Metabolism	0.011388	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-2022923	Dermatan sulfate biosynthesis	Metabolism	0.003458	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-2024101	CS/DS degradation	Metabolism	0.005630	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-2028269	Signaling by Hippo	Signal Transduction	0.151391	TJP2	chr9:69250885:T/G:1
+R-HSA-2029480	Fcgamma receptor (FCGR) dependent phagocytosis	Immune System	0.326372	ARPC1B,MYH9	chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-2029482	Regulation of actin dynamics for phagocytic cup formation	Immune System	0.250743	ARPC1B,MYH9	chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-203927	MicroRNA (miRNA) biogenesis	Gene expression (Transcription)	0.185552	AGO4	chr1:35850806:C/A:1
+R-HSA-204998	Cell death signalling via NRAGE, NRIF and NADE	Signal Transduction	0.127778	MCF2L,TIAM1	chr13:113046521:T/G:1,chr21:31135807:A/G:1
+R-HSA-211000	Gene Silencing by RNA	Gene expression (Transcription)	1.000000	AGO4	chr1:35850806:C/A:1
+R-HSA-211859	Biological oxidations	Metabolism	0.700064	CES1,SULT1A2	chr16:28592021:A/G:1,chr16:55830823:C/A:1
+R-HSA-211945	Phase I - Functionalization of compounds	Metabolism	0.575558	CES1	chr16:55830823:C/A:1
+R-HSA-2122947	NOTCH1 Intracellular Domain Regulates Transcription	Signal Transduction	0.325978	TLE4	chr9:79693752:C/G:1
+R-HSA-212436	Generic Transcription Pathway	Gene expression (Transcription)	0.399975	AGO4,ARID1B,CAT,POU4F1,WDR5,ZNF555,ZNF699	chr11:34471141:A/C:1,chr13:78601815:G/T:1,chr19:2852284:A/C:1,chr19:9305000:G/T:1,chr1:35850806:C/A:1,chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-216083	Integrin cell surface interactions	Extracellular matrix organization	0.152917	COL5A1,ITGA10	chr1:145895756:C/T:1,chr9:134782781:A/G:1
+R-HSA-2173782	Binding and Uptake of Ligands by Scavenger Receptors	Vesicle-mediated transport	0.553944	CD36	chr7:80474080:T/G:1
+R-HSA-2197563	NOTCH2 intracellular domain regulates transcription	Signal Transduction	0.093766	FCER2	chr19:7699499:C/T:1
+R-HSA-2214320	Anchoring fibril formation	Extracellular matrix organization	0.115815	BMP1	chr8:22196292:A/C:1
+R-HSA-2243919	Crosslinking of collagen fibrils	Extracellular matrix organization	0.137334	BMP1	chr8:22196292:A/C:1
+R-HSA-2262752	Cellular responses to stress	Cellular responses to external stimuli	1.000000	AGO4,CAT,HIST1H1E,SZT2	chr11:34471141:A/C:1,chr1:35850806:C/A:1,chr1:43426518:G/A:1,chr6:26156427:G/C:1
+R-HSA-2408522	Selenoamino acid metabolism	Metabolism	0.622046	IARS	chr9:92274385:C/A:1
+R-HSA-2467813	Separation of Sister Chromatids	Cell Cycle	1.000000	SMC1A	chrX:53380790:T/C:1
+R-HSA-2468052	Establishment of Sister Chromatid Cohesion	Cell Cycle	0.086296	SMC1A	chrX:53380790:T/C:1
+R-HSA-2470946	Cohesin Loading onto Chromatin	Cell Cycle	0.078765	SMC1A	chrX:53380790:T/C:1
+R-HSA-2500257	Resolution of Sister Chromatid Cohesion	Cell Cycle	1.000000	SMC1A	chrX:53380790:T/C:1
+R-HSA-2555396	Mitotic Metaphase and Anaphase	Cell Cycle	0.718094	RCC1,SMC1A	chr1:28508571:C/A:1,chrX:53380790:T/C:1
+R-HSA-2559580	Oxidative Stress Induced Senescence	Cellular responses to external stimuli	1.000000	AGO4	chr1:35850806:C/A:1
+R-HSA-2559583	Cellular Senescence	Cellular responses to external stimuli	0.674331	AGO4,HIST1H1E	chr1:35850806:C/A:1,chr6:26156427:G/C:1
+R-HSA-2559584	Formation of Senescence-Associated Heterochromatin Foci (SAHF)	Cellular responses to external stimuli	0.130219	HIST1H1E	chr6:26156427:G/C:1
+R-HSA-2559585	Oncogene Induced Senescence	Cellular responses to external stimuli	0.249846	AGO4	chr1:35850806:C/A:1
+R-HSA-2559586	DNA Damage/Telomere Stress Induced Senescence	Cellular responses to external stimuli	0.482359	HIST1H1E	chr6:26156427:G/C:1
+R-HSA-2565942	Regulation of PLK1 Activity at G2/M Transition	Cell Cycle	0.158631	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-2672351	Stimuli-sensing channels	Transport of small molecules	0.214532	RYR3,TPCN1	chr12:113277113:G/C:1,chr15:33432668:T/G:1
+R-HSA-2682334	EPH-Ephrin signaling	Developmental Biology	0.039294	ARPC1B,MYH9,TIAM1	chr21:31135807:A/G:1,chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-2980736	Peptide hormone metabolism	Metabolism of proteins	0.167276	CES1,GNAT3	chr16:55830823:C/A:1,chr7:80474080:T/G:1
+R-HSA-2980766	Nuclear Envelope Breakdown	Cell Cycle	0.069516	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-2990846	SUMOylation	Metabolism of proteins	1.000000	SMC1A	chrX:53380790:T/C:1
+R-HSA-2995410	Nuclear Envelope (NE) Reassembly	Cell Cycle	0.464970	RCC1	chr1:28508571:C/A:1
+R-HSA-3000170	Syndecan interactions	Extracellular matrix organization	0.198832	COL5A1	chr9:134782781:A/G:1
+R-HSA-3000171	Non-integrin membrane-ECM interactions	Extracellular matrix organization	0.083685	COL11A2,COL5A1	chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-3000178	ECM proteoglycans	Extracellular matrix organization	0.127778	BCAN,COL5A1	chr1:156652083:T/G:1,chr9:134782781:A/G:1
+R-HSA-3000471	Scavenging by Class B Receptors	Vesicle-mediated transport	0.048024	CD36	chr7:80474080:T/G:1
+R-HSA-3108214	SUMOylation of DNA damage response and repair proteins	Metabolism of proteins	0.469371	SMC1A	chrX:53380790:T/C:1
+R-HSA-3108232	SUMO E3 ligases SUMOylate target proteins	Metabolism of proteins	1.000000	SMC1A	chrX:53380790:T/C:1
+R-HSA-3214841	PKMTs methylate histone lysines	Chromatin organization	0.433139	WDR5	chr9:134155272:C/G:1
+R-HSA-3214847	HATs acetylate histones	Chromatin organization	0.106555	MCRS1,MORF4L1,WDR5	chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr15:78886316:G/C:1,chr9:134155272:C/G:1
+R-HSA-3214858	RMTs methylate histone arginines	Chromatin organization	0.130520	ARID1B,WDR5	chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-3247509	Chromatin modifying enzymes	Chromatin organization	0.071524	ARID1B,MCRS1,MORF4L1,PADI6,WDR5	chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr15:78886316:G/C:1,chr1:17401141:T/G:1,chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-3249367	STAT6-mediated induction of chemokines	Immune System	0.024304	STAT6	chr12:57102572:A/C:1
+R-HSA-3299685	Detoxification of Reactive Oxygen Species	Cellular responses to external stimuli	0.262089	CAT	chr11:34471141:A/C:1
+R-HSA-351906	Apoptotic cleavage of cell adhesion  proteins	Programmed Cell Death	0.086296	TJP2	chr9:69250885:T/G:1
+R-HSA-3560782	Diseases associated with glycosaminoglycan metabolism	Disease	0.044024	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-3560783	Defective B4GALT7 causes EDS, progeroid type	Disease	0.011388	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-3560801	Defective B3GAT3 causes JDSSDHD	Disease	0.011388	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-3595172	Defective CHST3 causes SEDCJD	Disease	0.001788	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-3595174	Defective CHST14 causes EDS, musculocontractural type	Disease	0.001788	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-3595177	Defective CHSY1 causes TPBS	Disease	0.001788	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-3700989	Transcriptional Regulation by TP53	Gene expression (Transcription)	0.771150	AGO4,POU4F1	chr13:78601815:G/T:1,chr1:35850806:C/A:1
+R-HSA-372790	Signaling by GPCR	Signal Transduction	0.301114	CXCL11,DAGLA,GNAT3,LHCGR,MCF2L,TIAM1	chr11:61743387:T/A:1,chr13:113046521:T/G:1,chr21:31135807:A/G:1,chr2:48708797:C/G:1,chr4:76036090:T/C:1,chr7:80474080:T/G:1
+R-HSA-373076	Class A/1 (Rhodopsin-like receptors)	Signal Transduction	1.000000	CXCL11,LHCGR	chr2:48708797:C/G:1,chr4:76036090:T/C:1
+R-HSA-373753	Nephrin family interactions	Cell-Cell communication	0.172054	IQGAP1	chr15:90390695:A/G:1
+R-HSA-373755	Semaphorin interactions	Developmental Biology	0.096101	MYH9,PLXND1	chr22:36320146:C/A:1,chr3:129575694:T/G:1
+R-HSA-373760	L1CAM interactions	Developmental Biology	1.000000	ITGA10	chr1:145895756:C/T:1
+R-HSA-375165	NCAM signaling for neurite out-growth	Developmental Biology	0.404370	COL5A1	chr9:134782781:A/G:1
+R-HSA-375276	Peptide ligand-binding receptors	Signal Transduction	1.000000	CXCL11	chr4:76036090:T/C:1
+R-HSA-375281	Hormone ligand-binding receptors	Signal Transduction	0.093766	LHCGR	chr2:48708797:C/G:1
+R-HSA-3769402	Deactivation of the beta-catenin transactivating complex	Signal Transduction	0.291839	TLE4	chr9:79693752:C/G:1
+R-HSA-3781865	Diseases of glycosylation	Disease	0.111701	BCAN,CSPG4,GALE	chr15:75675473:A/G:1,chr1:156652083:T/G:1,chr1:23798309:A/C:1
+R-HSA-379716	Cytosolic tRNA aminoacylation	Metabolism of proteins	0.178830	IARS	chr9:92274385:C/A:1
+R-HSA-379724	tRNA Aminoacylation	Metabolism of proteins	0.291839	IARS	chr9:92274385:C/A:1
+R-HSA-380108	Chemokine receptors bind chemokines	Signal Transduction	0.374158	CXCL11	chr4:76036090:T/C:1
+R-HSA-380259	Loss of Nlp from mitotic centrosomes	Cell Cycle	0.109005	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-380270	Recruitment of mitotic centrosome proteins and complexes	Cell Cycle	0.141621	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-380284	Loss of proteins required for interphase microtubule organization from the centrosome	Cell Cycle	0.109005	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-380287	Centrosome maturation	Cell Cycle	0.141621	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-380320	Recruitment of NuMA to mitotic centrosomes	Cell Cycle	0.181858	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-381340	Transcriptional regulation of white adipocyte differentiation	Developmental Biology	0.499189	CD36	chr7:80474080:T/G:1
+R-HSA-381676	Glucagon-like Peptide-1 (GLP1) regulates insulin secretion	Metabolism	0.291839	IQGAP1	chr15:90390695:A/G:1
+R-HSA-381771	Synthesis, secretion, and inactivation of Glucagon-like Peptide-1 (GLP-1)	Metabolism of proteins	0.151391	GNAT3	chr7:80474080:T/G:1
+R-HSA-382551	Transport of small molecules	Transport of small molecules	1.000000	BMP1,RYR3,SLC17A6,SLC2A6,TPCN1,VLDLR	chr11:22341861:T/C:1,chr12:113277113:G/C:1,chr15:33432668:T/G:1,chr8:22196292:A/C:1,chr9:133472046:G/A:1,chr9:2644144:G/T:1
+R-HSA-3858494	Beta-catenin independent WNT signaling	Signal Transduction	1.000000	AGO4	chr1:35850806:C/A:1
+R-HSA-388396	GPCR downstream signalling	Signal Transduction	0.377136	CXCL11,DAGLA,GNAT3,LHCGR,MCF2L,TIAM1	chr11:61743387:T/A:1,chr13:113046521:T/G:1,chr21:31135807:A/G:1,chr2:48708797:C/G:1,chr4:76036090:T/C:1,chr7:80474080:T/G:1
+R-HSA-389661	Glyoxylate metabolism and glycine degradation	Metabolism	0.224753	AGXT	chr2:240869136:A/G:1
+R-HSA-389887	Beta-oxidation of pristanoyl-CoA	Metabolism	0.071173	CRAT	chr9:129110977:A/C:1
+R-HSA-390466	Chaperonin-mediated protein folding	Metabolism of proteins	0.546501	GNAT3	chr7:80474080:T/G:1
+R-HSA-390918	Peroxisomal lipid metabolism	Metabolism	0.211898	CRAT	chr9:129110977:A/C:1
+R-HSA-391251	Protein folding	Metabolism of proteins	0.572029	GNAT3	chr7:80474080:T/G:1
+R-HSA-392170	ADP signalling through P2Y purinoceptor 12	Hemostasis	0.165222	GNAT3	chr7:80474080:T/G:1
+R-HSA-392499	Metabolism of proteins	Metabolism of proteins	0.682263	ARSA,ART3,CES1,FBXO21,GNAT3,IARS,MCRS1,MDGA1,MRPL28,NTM,OPCML,PEX5,PIGO,PRKN,RNF152,SMC1A,STAMBPL1,WDR5	chr10:88947447:C/A:1,chr11:132146101:C/T:1,chr11:133140763:C/A:1,chr12:117174552:T/C:1,chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr12:7190218:T/G:1,chr16:368429:A/G:1,chr16:55830823:C/A:1,chr18:61844221:A/G:1,chr22:50625611:G/C:1,chr4:76036090:T/C:1,chr6:161549199:T/A:1,chr6:37650494:G/C:1,chr7:80474080:T/G:1,chr9:134155272:C/G:1,chr9:35093530:T/C:1,chr9:92274385:C/A:1,chrX:53380790:T/C:1
+R-HSA-392518	Signal amplification	Hemostasis	0.237402	GNAT3	chr7:80474080:T/G:1
+R-HSA-3928662	EPHB-mediated forward signaling	Developmental Biology	0.045985	ARPC1B,TIAM1	chr21:31135807:A/G:1,chr7:99394321:C/T:1
+R-HSA-3928663	EPHA-mediated growth cone collapse	Developmental Biology	0.211898	MYH9	chr22:36320146:C/A:1
+R-HSA-3928665	EPH-ephrin mediated repulsion of cells	Developmental Biology	0.342432	TIAM1	chr21:31135807:A/G:1
+R-HSA-397014	Muscle contraction	Muscle contraction	0.234782	ACTA2,AKAP9,RYR3	chr10:88947447:C/A:1,chr15:33432668:T/G:1,chr7:92040995:G/T:1
+R-HSA-400206	Regulation of lipid metabolism by PPARalpha	Metabolism	0.622046	CD36	chr7:80474080:T/G:1
+R-HSA-400451	Free fatty acids regulate insulin secretion	Metabolism	0.086296	CD36	chr7:80474080:T/G:1
+R-HSA-400508	Incretin synthesis, secretion, and inactivation	Metabolism of proteins	0.172054	GNAT3	chr7:80474080:T/G:1
+R-HSA-400685	Sema4D in semaphorin signaling	Developmental Biology	0.178830	MYH9	chr22:36320146:C/A:1
+R-HSA-4086398	Ca2+ pathway	Signal Transduction	0.399437	AGO4	chr1:35850806:C/A:1
+R-HSA-416476	G alpha (q) signalling events	Signal Transduction	1.000000	DAGLA	chr11:61743387:T/A:1
+R-HSA-416482	G alpha (12/13) signalling events	Signal Transduction	0.138827	MCF2L,TIAM1	chr13:113046521:T/G:1,chr21:31135807:A/G:1
+R-HSA-416572	Sema4D induced cell migration and growth-cone collapse	Developmental Biology	0.151391	MYH9	chr22:36320146:C/A:1
+R-HSA-416700	Other semaphorin interactions	Developmental Biology	0.144391	PLXND1	chr3:129575694:T/G:1
+R-HSA-418555	G alpha (s) signalling events	Signal Transduction	0.327207	GNAT3,LHCGR	chr2:48708797:C/G:1,chr7:80474080:T/G:1
+R-HSA-418594	G alpha (i) signalling events	Signal Transduction	0.774524	CXCL11,GNAT3	chr4:76036090:T/C:1,chr7:80474080:T/G:1
+R-HSA-418597	G alpha (z) signalling events	Signal Transduction	0.325978	GNAT3	chr7:80474080:T/G:1
+R-HSA-419037	NCAM1 interactions	Developmental Biology	0.291839	COL5A1	chr9:134782781:A/G:1
+R-HSA-422356	Regulation of insulin secretion	Metabolism	0.133276	CD36,IQGAP1	chr15:90390695:A/G:1,chr7:80474080:T/G:1
+R-HSA-422475	Axon guidance	Developmental Biology	0.220950	ARPC1B,COL5A1,ITGA10,MYH9,PLXND1,TIAM1,VLDLR	chr1:145895756:C/T:1,chr21:31135807:A/G:1,chr22:36320146:C/A:1,chr3:129575694:T/G:1,chr7:99394321:C/T:1,chr9:134782781:A/G:1,chr9:2644144:G/T:1
+R-HSA-425393	Transport of inorganic cations/anions and amino acids/oligopeptides	Transport of small molecules	0.582530	SLC17A6	chr11:22341861:T/C:1
+R-HSA-425407	SLC-mediated transmembrane transport	Transport of small molecules	1.000000	SLC17A6,SLC2A6	chr11:22341861:T/C:1,chr9:133472046:G/A:1
+R-HSA-426048	Arachidonate production from DAG	Signal Transduction;Hemostasis	0.040181	DAGLA	chr11:61743387:T/A:1
+R-HSA-426486	Small interfering RNA (siRNA) biogenesis	Gene expression (Transcription)	0.071173	AGO4	chr1:35850806:C/A:1
+R-HSA-426496	Post-transcriptional silencing by small RNAs	Gene expression (Transcription)	0.055803	AGO4	chr1:35850806:C/A:1
+R-HSA-428157	Sphingolipid metabolism	Metabolism	0.519468	ARSA	chr22:50625611:G/C:1
+R-HSA-428643	Organic anion transporters	Transport of small molecules	0.078765	SLC17A6	chr11:22341861:T/C:1
+R-HSA-432722	Golgi Associated Vesicle Biogenesis	Vesicle-mediated transport	0.368978	CPD	chr17:30461111:A/T:1
+R-HSA-434313	Intracellular metabolism of fatty acids regulates insulin secretion	Metabolism	0.024304	CD36	chr7:80474080:T/G:1
+R-HSA-4419969	Depolymerisation of the Nuclear Lamina	Cell Cycle	0.006462	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-4420332	Defective B3GALT6 causes EDSP2 and SEMDJL1	Disease	0.011388	BCAN,CSPG4	chr15:75675473:A/G:1,chr1:156652083:T/G:1
+R-HSA-445355	Smooth Muscle Contraction	Muscle contraction	0.268136	ACTA2	chr10:88947447:C/A:1
+R-HSA-447041	CHL1 interactions	Developmental Biology	0.071173	ITGA10	chr1:145895756:C/T:1
+R-HSA-449147	Signaling by Interleukins	Immune System	0.426502	BLNK,CD36,FCER2,STAT6,TNFRSF1B	chr10:96227700:G/C:1,chr12:57102572:A/C:1,chr19:7699499:C/T:1,chr1:12188701:A/G:1,chr7:80474080:T/G:1
+R-HSA-453274	Mitotic G2-G2/M phases	Cell Cycle	0.679492	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-4641263	Regulation of FZD by ubiquitination	Signal Transduction	0.158335	LGR5	chr12:71578101:A/C:1
+R-HSA-4641265	Repression of WNT target genes	Signal Transduction	0.108525	TLE4	chr9:79693752:C/G:1
+R-HSA-4839726	Chromatin organization	Chromatin organization	0.071524	ARID1B,MCRS1,MORF4L1,PADI6,WDR5	chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr15:78886316:G/C:1,chr1:17401141:T/G:1,chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-499943	Interconversion of nucleotide di- and triphosphates	Metabolism	0.211898	AK2	chr1:33024644:G/C:1
+R-HSA-500792	GPCR ligand binding	Signal Transduction	0.591457	CXCL11,LHCGR	chr2:48708797:C/G:1,chr4:76036090:T/C:1
+R-HSA-512988	Interleukin-3, Interleukin-5 and GM-CSF signaling	Immune System	0.325978	BLNK	chr10:96227700:G/C:1
+R-HSA-5205647	Mitophagy	Autophagy	0.211898	PRKN	chr6:161549199:T/A:1
+R-HSA-5205685	Pink/Parkin Mediated Mitophagy	Autophagy	0.165222	PRKN	chr6:161549199:T/A:1
+R-HSA-525793	Myogenesis	Developmental Biology	0.211898	MYOD1	chr11:17721453:C/G:1
+R-HSA-5260271	Diseases of Immune System	Disease	0.178830	CD36	chr7:80474080:T/G:1
+R-HSA-5357801	Programmed Cell Death	Programmed Cell Death	0.660696	HIST1H1E,TJP2	chr6:26156427:G/C:1,chr9:69250885:T/G:1
+R-HSA-5368286	Mitochondrial translation initiation	Metabolism of proteins	0.511456	MRPL28	chr16:368429:A/G:1
+R-HSA-5368287	Mitochondrial translation	Metabolism of proteins	0.535105	MRPL28	chr16:368429:A/G:1
+R-HSA-5389840	Mitochondrial translation elongation	Metabolism of proteins	0.511456	MRPL28	chr16:368429:A/G:1
+R-HSA-5419276	Mitochondrial translation termination	Metabolism of proteins	0.511456	MRPL28	chr16:368429:A/G:1
+R-HSA-556833	Metabolism of lipids	Metabolism	0.832946	ARSA,CD36,CRAT,LPIN1,LPIN3	chr20:41345676:A/G:1,chr22:50625611:G/C:1,chr2:11819407:C/G:1,chr7:80474080:T/G:1,chr9:129110977:A/C:1
+R-HSA-5576890	Phase 3 - rapid repolarisation	Muscle contraction	0.063519	AKAP9	chr7:92040995:G/T:1
+R-HSA-5576891	Cardiac conduction	Muscle contraction	0.308313	AKAP9,RYR3	chr15:33432668:T/G:1,chr7:92040995:G/T:1
+R-HSA-5576893	Phase 2 - plateau phase	Muscle contraction	0.185552	AKAP9	chr7:92040995:G/T:1
+R-HSA-5578775	Ion homeostasis	Muscle contraction	0.358489	RYR3	chr15:33432668:T/G:1
+R-HSA-5602358	Diseases associated with the TLR signaling cascade	Disease	0.178830	CD36	chr7:80474080:T/G:1
+R-HSA-5602498	MyD88 deficiency (TLR2/4)	Disease	0.078765	CD36	chr7:80474080:T/G:1
+R-HSA-5603041	IRAK4 deficiency (TLR2/4)	Disease	0.086296	CD36	chr7:80474080:T/G:1
+R-HSA-5609975	Diseases associated with glycosylation precursor biosynthesis	Disease	0.137334	GALE	chr1:23798309:A/C:1
+R-HSA-5609977	Defective GALE can cause Epimerase-deficiency galactosemia (EDG)	Disease	0.008167	GALE	chr1:23798309:A/C:1
+R-HSA-5617472	Activation of anterior HOX genes in hindbrain development during early embryogenesis	Developmental Biology	0.628263	WDR5	chr9:134155272:C/G:1
+R-HSA-5617833	Cilium Assembly	Organelle biogenesis and maintenance	0.681592	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-5619507	Activation of HOX genes during differentiation	Developmental Biology	0.628263	WDR5	chr9:134155272:C/G:1
+R-HSA-5620912	Anchoring of the basal body to the plasma membrane	Organelle biogenesis and maintenance	0.187744	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-5625740	RHO GTPases activate PKNs	Signal Transduction	0.531243	MYH9	chr22:36320146:C/A:1
+R-HSA-5625900	RHO GTPases activate CIT	Signal Transduction	0.144391	MYH9	chr22:36320146:C/A:1
+R-HSA-5626467	RHO GTPases activate IQGAPs	Signal Transduction	0.231103	IQGAP1	chr15:90390695:A/G:1
+R-HSA-5627117	RHO GTPases Activate ROCKs	Signal Transduction	0.144391	MYH9	chr22:36320146:C/A:1
+R-HSA-5627123	RHO GTPases activate PAKs	Signal Transduction	0.158335	MYH9	chr22:36320146:C/A:1
+R-HSA-5628897	TP53 Regulates Metabolic Genes	Gene expression (Transcription)	0.499189	AGO4	chr1:35850806:C/A:1
+R-HSA-5633007	Regulation of TP53 Activity	Gene expression (Transcription)	1.000000	POU4F1	chr13:78601815:G/T:1
+R-HSA-5653656	Vesicle-mediated transport	Vesicle-mediated transport	0.665693	BIN1,CD36,CPD,FCHO1,ITSN2,MYH9,SCOC	chr17:30461111:A/T:1,chr19:17774499:G/A:1,chr22:36320146:C/A:1,chr2:127060445:C/T:1,chr2:24209639:T/G:1,chr4:140287063:A/C:1,chr7:80474080:T/G:1
+R-HSA-5658442	Regulation of RAS by GAPs	Signal Transduction;Immune System	0.106388	RASAL2,SPRED3	chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr1:178470804:T/C:1
+R-HSA-5663202	Diseases of signal transduction by growth factor receptors and second messengers	Disease	1.000000	AKAP9,IQGAP1,SPRED3	chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr7:92040995:G/T:1
+R-HSA-5663205	Infectious disease	Disease	0.683822	ARPC1B,GNAT3,LHCGR,MYH9,RCC1	chr1:28508571:C/A:1,chr22:36320146:C/A:1,chr2:48708797:C/G:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1
+R-HSA-5663213	RHO GTPases Activate WASPs and WAVEs	Signal Transduction	0.255992	ARPC1B	chr7:99394321:C/T:1
+R-HSA-5668541	TNFR2 non-canonical NF-kB pathway	Immune System	0.564884	TNFRSF1B	chr1:12188701:A/G:1
+R-HSA-5668914	Diseases of metabolism	Disease	0.454568	BCAN,CSPG4,GALE	chr15:75675473:A/G:1,chr1:156652083:T/G:1,chr1:23798309:A/C:1
+R-HSA-5669034	TNFs bind their physiological receptors	Immune System	0.211898	TNFRSF1B	chr1:12188701:A/G:1
+R-HSA-5673001	RAF/MAP kinase cascade	Signal Transduction;Immune System	0.456878	IQGAP1,RASAL2,SPRED3	chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr1:178470804:T/C:1
+R-HSA-5674135	MAP2K and MAPK activation	Signal Transduction;Immune System	0.280084	IQGAP1	chr15:90390695:A/G:1
+R-HSA-5683057	MAPK family signaling cascades	Signal Transduction	0.307987	AGO4,IQGAP1,RASAL2,SPRED3	chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr1:178470804:T/C:1,chr1:35850806:C/A:1
+R-HSA-5684996	MAPK1/MAPK3 signaling	Signal Transduction	0.464019	IQGAP1,RASAL2,SPRED3	chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr1:178470804:T/C:1
+R-HSA-5686938	Regulation of TLR by endogenous ligand	Immune System	0.144391	CD36	chr7:80474080:T/G:1
+R-HSA-5687128	MAPK6/MAPK4 signaling	Signal Transduction	0.535105	AGO4	chr1:35850806:C/A:1
+R-HSA-5688426	Deubiquitination	Metabolism of proteins	0.737140	MCRS1,PRKN,STAMBPL1	chr10:88947447:C/A:1,chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr6:161549199:T/A:1
+R-HSA-5689603	UCH proteinases	Metabolism of proteins	0.568471	MCRS1	chr12:49557449:T/C:1,chr12:49558885:G/A:1
+R-HSA-5689877	Josephin domain DUBs	Metabolism of proteins	0.093766	PRKN	chr6:161549199:T/A:1
+R-HSA-5689901	Metalloprotease DUBs	Metabolism of proteins	0.262089	STAMBPL1	chr10:88947447:C/A:1
+R-HSA-5693532	DNA Double-Strand Break Repair	DNA Repair	1.000000	TDP1	chr14:89966308:A/G:1
+R-HSA-5693571	Nonhomologous End-Joining (NHEJ)	DNA Repair	0.433139	TDP1	chr14:89966308:A/G:1
+R-HSA-5696394	DNA Damage Recognition in GG-NER	DNA Repair	0.268136	MCRS1	chr12:49557449:T/C:1,chr12:49558885:G/A:1
+R-HSA-5696398	Nucleotide Excision Repair	DNA Repair	0.596136	MCRS1	chr12:49557449:T/C:1,chr12:49558885:G/A:1
+R-HSA-5696399	Global Genome Nucleotide Excision Repair (GG-NER)	DNA Repair	0.499189	MCRS1	chr12:49557449:T/C:1,chr12:49558885:G/A:1
+R-HSA-597592	Post-translational protein modification	Metabolism of proteins	0.431979	ARSA,ART3,FBXO21,MCRS1,MDGA1,NTM,OPCML,PEX5,PIGO,PRKN,RNF152,SMC1A,STAMBPL1,WDR5	chr10:88947447:C/A:1,chr11:132146101:C/T:1,chr11:133140763:C/A:1,chr12:117174552:T/C:1,chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr12:7190218:T/G:1,chr18:61844221:A/G:1,chr22:50625611:G/C:1,chr4:76036090:T/C:1,chr6:161549199:T/A:1,chr6:37650494:G/C:1,chr9:134155272:C/G:1,chr9:35093530:T/C:1,chrX:53380790:T/C:1
+R-HSA-611105	Respiratory electron transport	Metabolism	0.523425	ETFA	chr15:76261301:A/T:1
+R-HSA-6783783	Interleukin-10 signaling	Immune System	0.052057	FCER2,TNFRSF1B	chr19:7699499:C/T:1,chr1:12188701:A/G:1
+R-HSA-6785807	Interleukin-4 and Interleukin-13 signaling	Immune System	0.012827	CD36,FCER2,STAT6,TNFRSF1B	chr12:57102572:A/C:1,chr19:7699499:C/T:1,chr1:12188701:A/G:1,chr7:80474080:T/G:1
+R-HSA-6798695	Neutrophil degranulation	Immune System	0.288322	ARSA,CAT,CD36,IQGAP1,PDAP1,TNFRSF1B	chr11:34471141:A/C:1,chr15:90390695:A/G:1,chr1:12188701:A/G:1,chr22:50625611:G/C:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1
+R-HSA-6802946	Signaling by moderate kinase activity BRAF mutants	Disease	0.309117	IQGAP1	chr15:90390695:A/G:1
+R-HSA-6802948	Signaling by high-kinase activity BRAF mutants	Disease	0.255992	IQGAP1	chr15:90390695:A/G:1
+R-HSA-6802949	Signaling by RAS mutants	Disease	0.309117	IQGAP1	chr15:90390695:A/G:1
+R-HSA-6802952	Signaling by BRAF and RAF fusions	Disease	0.098645	AKAP9,IQGAP1	chr15:90390695:A/G:1,chr7:92040995:G/T:1
+R-HSA-6802953	RAS signaling downstream of NF1 loss-of-function variants	Disease	0.055803	SPRED3	chr19:38392374:C/T:1,chr19:38394161:T/G:1
+R-HSA-6802955	Paradoxical activation of RAF signaling by kinase inactive BRAF	Disease	0.309117	IQGAP1	chr15:90390695:A/G:1
+R-HSA-6802957	Oncogenic MAPK signaling	Disease	0.020945	AKAP9,IQGAP1,SPRED3	chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr7:92040995:G/T:1
+R-HSA-6804759	Regulation of TP53 Activity through Association with Co-factors	Gene expression (Transcription)	0.108525	POU4F1	chr13:78601815:G/T:1
+R-HSA-6806834	Signaling by MET	Signal Transduction	0.136045	COL11A2,COL5A1	chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-6807070	PTEN Regulation	Signal Transduction	1.000000	AGO4	chr1:35850806:C/A:1
+R-HSA-6811440	Retrograde transport at the Trans-Golgi-Network	Vesicle-mediated transport	0.331508	SCOC	chr4:140287063:A/C:1
+R-HSA-6811442	Intra-Golgi and retrograde Golgi-to-ER traffic	Vesicle-mediated transport	1.000000	SCOC	chr4:140287063:A/C:1
+R-HSA-6814122	Cooperation of PDCL (PhLP1) and TRiC/CCT in G-protein beta folding	Metabolism of proteins	0.291839	GNAT3	chr7:80474080:T/G:1
+R-HSA-68875	Mitotic Prophase	Cell Cycle	0.320364	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-68877	Mitotic Prometaphase	Cell Cycle	0.230452	AKAP9,PCNT,SMC1A	chr21:46351357:C/A:1,chr7:92040995:G/T:1,chrX:53380790:T/C:1
+R-HSA-68882	Mitotic Anaphase	Cell Cycle	0.716958	RCC1,SMC1A	chr1:28508571:C/A:1,chrX:53380790:T/C:1
+R-HSA-68884	Mitotic Telophase/Cytokinesis	Cell Cycle	0.101175	SMC1A	chrX:53380790:T/C:1
+R-HSA-68886	M Phase	Cell Cycle	0.153594	AKAP9,LPIN1,LPIN3,PCNT,RCC1,SMC1A	chr1:28508571:C/A:1,chr20:41345676:A/G:1,chr21:46351357:C/A:1,chr2:11819407:C/G:1,chr7:92040995:G/T:1,chrX:53380790:T/C:1
+R-HSA-69242	S Phase	Cell Cycle	1.000000	SMC1A	chrX:53380790:T/C:1
+R-HSA-69275	G2/M Transition	Cell Cycle	0.677412	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-69278	Cell Cycle, Mitotic	Cell Cycle	0.463211	AKAP9,LPIN1,LPIN3,PCNT,RCC1,SMC1A	chr1:28508571:C/A:1,chr20:41345676:A/G:1,chr21:46351357:C/A:1,chr2:11819407:C/G:1,chr7:92040995:G/T:1,chrX:53380790:T/C:1
+R-HSA-70370	Galactose catabolism	Metabolism	0.040181	GALE	chr1:23798309:A/C:1
+R-HSA-71291	Metabolism of amino acids and derivatives	Metabolism	0.771243	AGXT,IARS	chr2:240869136:A/G:1,chr9:92274385:C/A:1
+R-HSA-71387	Metabolism of carbohydrates	Metabolism	0.516323	BCAN,CSPG4,GALE	chr15:75675473:A/G:1,chr1:156652083:T/G:1,chr1:23798309:A/C:1
+R-HSA-72163	mRNA Splicing - Major Pathway	Metabolism of RNA	1.000000	PLRG1	chr4:154546952:G/C:1
+R-HSA-72172	mRNA Splicing	Metabolism of RNA	1.000000	PLRG1	chr4:154546952:G/C:1
+R-HSA-72202	Transport of Mature Transcript to Cytoplasm	Metabolism of RNA	0.499189	NXF1	chr11:62795754:C/G:1
+R-HSA-72203	Processing of Capped Intron-Containing Pre-mRNA	Metabolism of RNA	1.000000	NXF1,PLRG1	chr11:62795754:C/G:1,chr4:154546952:G/C:1
+R-HSA-72766	Translation	Metabolism of proteins	1.000000	IARS,MRPL28	chr16:368429:A/G:1,chr9:92274385:C/A:1
+R-HSA-73857	RNA Polymerase II Transcription	Gene expression (Transcription)	0.201107	AGO4,ARID1B,CAT,POU4F1,WDR5,ZNF555,ZNF699	chr11:34471141:A/C:1,chr13:78601815:G/T:1,chr19:2852284:A/C:1,chr19:9305000:G/T:1,chr1:35850806:C/A:1,chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-73887	Death Receptor Signalling	Signal Transduction	0.320364	MCF2L,TIAM1	chr13:113046521:T/G:1,chr21:31135807:A/G:1
+R-HSA-73894	DNA Repair	DNA Repair	1.000000	MCRS1,TDP1	chr12:49557449:T/C:1,chr12:49558885:G/A:1,chr14:89966308:A/G:1
+R-HSA-74160	Gene expression (Transcription)	Gene expression (Transcription)	0.121561	AGO4,ARID1B,CAT,POU4F1,WDR5,ZNF555,ZNF699	chr11:34471141:A/C:1,chr13:78601815:G/T:1,chr19:2852284:A/C:1,chr19:9305000:G/T:1,chr1:35850806:C/A:1,chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-75109	Triglyceride biosynthesis	Metabolism	0.005630	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-75153	Apoptotic execution phase	Programmed Cell Death	0.067240	HIST1H1E,TJP2	chr6:26156427:G/C:1,chr9:69250885:T/G:1
+R-HSA-75892	Platelet Adhesion to exposed collagen	Hemostasis	0.115815	ITGA10	chr1:145895756:C/T:1
+R-HSA-76002	Platelet activation, signaling and aggregation	Hemostasis	0.473992	CD36,DAGLA,GNAT3	chr11:61743387:T/A:1,chr7:80474080:T/G:1
+R-HSA-76005	Response to elevated platelet cytosolic Ca2+	Hemostasis	1.000000	CD36	chr7:80474080:T/G:1
+R-HSA-8852135	Protein ubiquitination	Metabolism of proteins	0.136045	PEX5,RNF152	chr12:7190218:T/G:1,chr18:61844221:A/G:1
+R-HSA-8853884	Transcriptional Regulation by VENTX	Gene expression (Transcription)	0.280084	AGO4	chr1:35850806:C/A:1
+R-HSA-8854518	AURKA Activation by TPX2	Cell Cycle	0.116956	AKAP9,PCNT	chr21:46351357:C/A:1,chr7:92040995:G/T:1
+R-HSA-8856825	Cargo recognition for clathrin-mediated endocytosis	Vesicle-mediated transport	0.211535	FCHO1,ITSN2	chr19:17774499:G/A:1,chr2:24209639:T/G:1
+R-HSA-8856828	Clathrin-mediated endocytosis	Vesicle-mediated transport	0.115185	BIN1,FCHO1,ITSN2	chr19:17774499:G/A:1,chr2:127060445:C/T:1,chr2:24209639:T/G:1
+R-HSA-8866376	Reelin signalling pathway	Developmental Biology	0.040181	VLDLR	chr9:2644144:G/T:1
+R-HSA-8866427	VLDLR internalisation and degradation	Transport of small molecules	0.093766	VLDLR	chr9:2644144:G/T:1
+R-HSA-8866654	E3 ubiquitin ligases ubiquitinate target proteins	Metabolism of proteins	0.083685	PEX5,RNF152	chr12:7190218:T/G:1,chr18:61844221:A/G:1
+R-HSA-8874081	MET activates PTK2 signaling	Signal Transduction	0.024737	COL11A2,COL5A1	chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-8875878	MET promotes cell motility	Signal Transduction	0.044024	COL11A2,COL5A1	chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-8878171	Transcriptional regulation by RUNX1	Gene expression (Transcription)	0.445715	AGO4,ARID1B,WDR5	chr1:35850806:C/A:1,chr6:156829096:A/G:1,chr9:134155272:C/G:1
+R-HSA-8934593	Regulation of RUNX1 Expression and Activity	Gene expression (Transcription)	0.130219	AGO4	chr1:35850806:C/A:1
+R-HSA-8936459	RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function	Gene expression (Transcription)	0.184798	AGO4,WDR5	chr1:35850806:C/A:1,chr9:134155272:C/G:1
+R-HSA-8939211	ESR-mediated signaling	Signal Transduction	0.265472	AGO4,GNAT3,SMC1A	chr1:35850806:C/A:1,chr7:80474080:T/G:1,chrX:53380790:T/C:1
+R-HSA-8939243	RUNX1 interacts with co-factors whose precise effect on RUNX1 targets is not known	Gene expression (Transcription)	0.262089	ARID1B	chr6:156829096:A/G:1
+R-HSA-8943723	Regulation of PTEN mRNA translation	Signal Transduction	0.071173	AGO4	chr1:35850806:C/A:1
+R-HSA-8948216	Collagen chain trimerization	Extracellular matrix organization	0.050002	COL11A2,COL5A1	chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-8948700	Competing endogenous RNAs (ceRNAs) regulate PTEN translation	Signal Transduction	0.063519	AGO4	chr1:35850806:C/A:1
+R-HSA-8951664	Neddylation	Metabolism of proteins	0.716958	FBXO21,WDR5	chr12:117174552:T/C:1,chr9:134155272:C/G:1
+R-HSA-8953854	Metabolism of RNA	Metabolism of RNA	0.177992	NXF1,PLRG1	chr11:62795754:C/G:1,chr4:154546952:G/C:1
+R-HSA-8953897	Cellular responses to external stimuli	Cellular responses to external stimuli	0.818597	AGO4,CAT,HIST1H1E,SZT2	chr11:34471141:A/C:1,chr1:35850806:C/A:1,chr1:43426518:G/A:1,chr6:26156427:G/C:1
+R-HSA-8963896	HDL assembly	Transport of small molecules	0.063519	BMP1	chr8:22196292:A/C:1
+R-HSA-8963898	Plasma lipoprotein assembly	Transport of small molecules	0.144391	BMP1	chr8:22196292:A/C:1
+R-HSA-8964043	Plasma lipoprotein clearance	Transport of small molecules	0.237402	VLDLR	chr9:2644144:G/T:1
+R-HSA-8964046	VLDL clearance	Transport of small molecules	0.048024	VLDLR	chr9:2644144:G/T:1
+R-HSA-8978868	Fatty acid metabolism	Metabolism	1.000000	CRAT	chr9:129110977:A/C:1
+R-HSA-8979227	Triglyceride metabolism	Metabolism	0.038338	LPIN1,LPIN3	chr20:41345676:A/G:1,chr2:11819407:C/G:1
+R-HSA-8986944	Transcriptional Regulation by MECP2	Gene expression (Transcription)	0.404370	AGO4	chr1:35850806:C/A:1
+R-HSA-9006115	Signaling by NTRK2 (TRKB)	Signal Transduction	0.185552	TIAM1	chr21:31135807:A/G:1
+R-HSA-9006925	Intracellular signaling by second messengers	Signal Transduction	0.521871	AGO4	chr1:35850806:C/A:1
+R-HSA-9006931	Signaling by Nuclear Receptors	Signal Transduction	0.520646	AGO4,GNAT3,SMC1A	chr1:35850806:C/A:1,chr7:80474080:T/G:1,chrX:53380790:T/C:1
+R-HSA-9006934	Signaling by Receptor Tyrosine Kinases	Signal Transduction	1.000000	COL11A2,COL5A1,STAT6,TIAM1	chr12:57102572:A/C:1,chr21:31135807:A/G:1,chr6:33171551:C/T:1,chr9:134782781:A/G:1
+R-HSA-9009391	Extra-nuclear estrogen signaling	Signal Transduction	0.460533	GNAT3	chr7:80474080:T/G:1
+R-HSA-9012852	Signaling by NOTCH3	Signal Transduction	0.331508	PLXND1	chr3:129575694:T/G:1
+R-HSA-9013508	NOTCH3 Intracellular Domain Regulates Transcription	Signal Transduction	0.185552	PLXND1	chr3:129575694:T/G:1
+R-HSA-9013694	Signaling by NOTCH4	Signal Transduction	0.490843	ACTA2	chr10:88947447:C/A:1
+R-HSA-9013695	NOTCH4 Intracellular Domain Regulates Transcription	Signal Transduction	0.151391	ACTA2	chr10:88947447:C/A:1
+R-HSA-9018519	Estrogen-dependent gene expression	Signal Transduction	0.341331	AGO4,SMC1A	chr1:35850806:C/A:1,chrX:53380790:T/C:1
+R-HSA-9022692	Regulation of MECP2 expression and activity	Gene expression (Transcription)	0.231103	AGO4	chr1:35850806:C/A:1
+R-HSA-9024446	NR1H2 and NR1H3-mediated signaling	Signal Transduction	0.320404	AGO4	chr1:35850806:C/A:1
+R-HSA-9029569	NR1H3 & NR1H2 regulate gene expression linked to cholesterol transport and efflux	Signal Transduction	0.262089	AGO4	chr1:35850806:C/A:1
+R-HSA-9032845	Activated NTRK2 signals through CDK5	Signal Transduction	0.048024	TIAM1	chr21:31135807:A/G:1
+R-HSA-9033241	Peroxisomal protein import	Protein localization	0.000157	AGXT,CAT,CRAT,PEX5,PEX7	chr11:34471141:A/C:1,chr12:7190218:T/G:1,chr2:240869136:A/G:1,chr6:136900399:T/G:1,chr9:129110977:A/C:1
+R-HSA-912631	Regulation of signaling by CBL	Immune System	0.165222	BLNK	chr10:96227700:G/C:1
+R-HSA-9607240	FLT3 Signaling	Immune System	0.479152	IQGAP1,RASAL2,SPRED3	chr15:90390695:A/G:1,chr19:38392374:C/T:1,chr19:38394161:T/G:1,chr1:178470804:T/C:1
+R-HSA-9609507	Protein localization	Protein localization	0.010920	AGXT,CAT,CRAT,PEX5,PEX7	chr11:34471141:A/C:1,chr12:7190218:T/G:1,chr2:240869136:A/G:1,chr6:136900399:T/G:1,chr9:129110977:A/C:1
+R-HSA-9612973	Autophagy	Autophagy	0.125877	PCNT,PEX5,PRKN	chr12:7190218:T/G:1,chr21:46351357:C/A:1,chr6:161549199:T/A:1
+R-HSA-9613829	Chaperone Mediated Autophagy	Autophagy	0.165222	PCNT	chr21:46351357:C/A:1
+R-HSA-9614085	FOXO-mediated transcription	Gene expression (Transcription)	0.418930	CAT	chr11:34471141:A/C:1
+R-HSA-9615017	FOXO-mediated transcription of oxidative stress, metabolic and neuronal genes	Gene expression (Transcription)	0.218352	CAT	chr11:34471141:A/C:1
+R-HSA-9615710	Late endosomal microautophagy	Autophagy	0.243649	PCNT	chr21:46351357:C/A:1
+R-HSA-9615933	Postmitotic nuclear pore complex (NPC) reformation	Cell Cycle	0.198832	RCC1	chr1:28508571:C/A:1
+R-HSA-9639288	Amino acids regulate mTORC1	Cellular responses to external stimuli	0.363755	SZT2	chr1:43426518:G/A:1
+R-HSA-9646399	Aggrephagy	Autophagy	0.050002	PCNT,PRKN	chr21:46351357:C/A:1,chr6:161549199:T/A:1
+R-HSA-9649948	Signaling downstream of RAS mutants	Disease	0.309117	IQGAP1	chr15:90390695:A/G:1
+R-HSA-9658195	Leishmania infection	Disease	0.318610	ARPC1B,GNAT3,LHCGR,MYH9	chr22:36320146:C/A:1,chr2:48708797:C/G:1,chr7:80474080:T/G:1,chr7:99394321:C/T:1
+R-HSA-9660821	ADORA2B mediated anti-inflammatory cytokines production	Disease	0.296224	GNAT3,LHCGR	chr2:48708797:C/G:1,chr7:80474080:T/G:1
+R-HSA-9662834	CD163 mediating an anti-inflammatory response	Disease	0.071173	MYH9	chr22:36320146:C/A:1
+R-HSA-9662851	Anti-inflammatory response favouring Leishmania parasite infection	Disease	0.431904	GNAT3,LHCGR,MYH9	chr22:36320146:C/A:1,chr2:48708797:C/G:1,chr7:80474080:T/G:1
+R-HSA-9663891	Selective autophagy	Autophagy	0.029354	PCNT,PEX5,PRKN	chr12:7190218:T/G:1,chr21:46351357:C/A:1,chr6:161549199:T/A:1
+R-HSA-9664407	Parasite infection	Disease	0.244685	ARPC1B,MYH9	chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-9664417	Leishmania phagocytosis	Disease	0.244685	ARPC1B,MYH9	chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-9664422	FCGR3A-mediated phagocytosis	Disease	0.244685	ARPC1B,MYH9	chr22:36320146:C/A:1,chr7:99394321:C/T:1
+R-HSA-9664433	Leishmania parasite growth and survival	Disease	0.431904	GNAT3,LHCGR,MYH9	chr22:36320146:C/A:1,chr2:48708797:C/G:1,chr7:80474080:T/G:1
+R-HSA-9664873	Pexophagy	Autophagy	0.086296	PEX5	chr12:7190218:T/G:1
+R-HSA-9675108	Nervous system development	Developmental Biology	0.240315	ARPC1B,COL5A1,ITGA10,MYH9,PLXND1,TIAM1,VLDLR	chr1:145895756:C/T:1,chr21:31135807:A/G:1,chr22:36320146:C/A:1,chr3:129575694:T/G:1,chr7:99394321:C/T:1,chr9:134782781:A/G:1,chr9:2644144:G/T:1
+R-HSA-977225	Amyloid fiber formation	Metabolism of proteins	0.585974	PRKN	chr6:161549199:T/A:1
+R-HSA-977443	GABA receptor activation	Neuronal System	0.389449	GNAT3	chr7:80474080:T/G:1
+R-HSA-977444	GABA B receptor activation	Neuronal System	0.297646	GNAT3	chr7:80474080:T/G:1
+R-HSA-982772	Growth hormone receptor signaling	Immune System	0.178830	CSH1	chr17:63895212:T/C:1
+R-HSA-983168	Antigen processing: Ubiquitination & Proteasome degradation	Immune System	0.741003	FBXO21,HECW2,PRKN	chr12:117174552:T/C:1,chr2:196222438:A/C:1,chr6:161549199:T/A:1
+R-HSA-983169	Class I MHC mediated antigen processing & presentation	Immune System	0.547247	CD36,FBXO21,HECW2,PRKN	chr12:117174552:T/C:1,chr2:196222438:A/C:1,chr6:161549199:T/A:1,chr7:80474080:T/G:1
+R-HSA-983231	Factors involved in megakaryocyte development and platelet production	Hemostasis	1.000000	DOCK4	chr7:111808804:C/T:1
+R-HSA-983695	Antigen activates B Cell Receptor (BCR) leading to generation of second messengers	Immune System	0.507400	BLNK	chr10:96227700:G/C:1
+R-HSA-983705	Signaling by the B Cell Receptor (BCR)	Immune System	1.000000	BLNK	chr10:96227700:G/C:1
+R-HSA-983712	Ion channel transport	Transport of small molecules	0.662559	RYR3,TPCN1	chr12:113277113:G/C:1,chr15:33432668:T/G:1
+R-HSA-991365	Activation of GABAB receptors	Neuronal System	0.297646	GNAT3	chr7:80474080:T/G:1

@@ -1,0 +1,166 @@
+# Chromosome	Position	Ref. Base	Mutant Base	Coding Score	Non-Coding Score	Warning
+1	5690432	T	C	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+1	12188701	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+1	17401141	T	G	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+1	23798309	A	C	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+1	27819538	A	G	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+1	28508571	C	A	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+1	33024644	G	C	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+1	34686889	C	T	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+1	35850806	C	A	--	0.034903	benign
+1	37806988	G	A	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+1	42816632	A	C	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+1	43426518	G	A	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+1	112723830	G	A	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+1	121118165	G	T	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+1	145895756	C	T	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+1	151710027	G	A	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+1	156652083	T	G	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+1	159366259	G	A	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+1	178470804	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+10	70777513	A	C	--	0.145850	benign
+10	80425709	C	G	--	0.088912	benign
+10	88947447	C	A	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+10	96227700	G	C	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+11	17721453	C	G	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+11	22341861	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+11	34471141	A	C	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+11	50090417	T	G	--	0.070230	benign
+11	54725439	G	T	--	0.076176	benign
+11	61743387	T	A	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+11	62795754	C	G	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+11	88408587	A	G	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+11	132146101	C	T	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+11	133140763	C	A	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+12	7190218	T	G	--	--	No prediction found
+12	49557449	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+12	49558885	G	A	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+12	57102572	A	C	--	0.088821	benign
+12	71578101	A	C	--	0.029263	benign (high conf.)
+12	113277113	G	C	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+12	117174552	T	C	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+13	78601815	G	T	--	0.041916	benign
+13	87893299	C	G	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+13	100539852	A	T	--	0.016726	benign (high conf.)
+13	110990134	C	A	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+13	113046521	T	G	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+14	58285579	G	T	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+14	74407837	A	G	--	0.040041	benign
+14	89966308	A	G	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+14	104588241	T	G	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+14	104945672	A	G	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+15	33432668	T	G	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+15	70484795	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+15	75206403	G	C	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+15	75675473	A	G	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+15	76261301	A	T	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+15	78886316	G	C	--	0.245332	benign
+15	90390695	A	G	--	0.047023	benign
+16	368429	A	G	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+16	28592021	A	G	--	0.022045	benign (high conf.)
+16	46394547	T	C	--	0.322836	benign
+16	55830823	C	A	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+16	84194069	T	G	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+17	16818231	A	G	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+17	26768661	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+17	30461111	A	T	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+17	36508006	G	C	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+17	44228848	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+17	63895212	T	C	--	0.037764	benign
+18	26039196	G	A	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+18	61844221	A	G	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+19	2852284	A	C	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+19	7699499	C	T	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+19	9305000	G	T	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+19	14070405	C	A	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+19	16902781	T	C	--	0.021174	benign (high conf.)
+19	17774499	G	A	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+19	38392374	C	T	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+19	38394161	T	G	--	0.035411	benign
+19	39707590	A	C	--	0.063280	benign
+19	52788272	C	A	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+19	54307267	G	A	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+19	54454348	T	C	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+19	57177622	A	G	--	0.020427	benign (high conf.)
+2	11819407	C	G	--	0.017312	benign (high conf.)
+2	24209639	T	G	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+2	26576272	A	C	--	0.038848	benign
+2	48708797	C	G	--	0.022801	benign (high conf.)
+2	104678443	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+2	106657431	A	T	--	0.086034	benign
+2	127060445	C	T	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+2	127322056	T	G	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+2	131532891	G	A	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+2	135898778	A	G	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+2	188227159	C	G	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+2	196222438	A	C	--	0.114662	benign
+2	204177510	C	T	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+2	240869136	A	G	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+20	18041904	T	C	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+20	29514969	G	A	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+20	30813087	C	G	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+20	41345676	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+20	60006900	G	C	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+20	62896722	T	C	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+21	5252209	A	G	--	--	No prediction found
+21	31135807	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+21	41179318	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+21	46351357	C	A	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+22	10928353	C	G	--	--	No prediction found
+22	11066487	G	A	--	--	No prediction found
+22	25992371	C	T	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+22	36320146	C	A	--	0.043394	benign
+22	50625611	G	C	--	0.024889	benign (high conf.)
+3	121945265	G	A	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+3	129575694	T	G	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+3	195668332	A	G	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+4	76036090	T	C	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+4	140287063	A	C	--	--	Warning: unexpected reference base (expected 'G', but found 'A')
+4	154546952	G	C	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+4	190111824	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+5	41967795	T	G	--	0.239574	benign
+5	94678843	A	G	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+5	97370130	C	G	--	0.074960	benign
+5	119127320	C	A	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+5	151731226	T	G	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+5	151800684	C	A	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+6	26156427	G	C	--	--	Warning: unexpected reference base (expected 'T', but found 'G')
+6	33171551	C	T	--	--	Warning: unexpected reference base (expected 'G', but found 'C')
+6	37650494	G	C	--	0.033491	benign
+6	38850159	T	G	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+6	39867400	C	A	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+6	44044571	T	C	--	--	Warning: unexpected reference base (expected 'A', but found 'T')
+6	136900399	T	G	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+6	156829096	A	G	--	0.706434	pathogenic
+6	161549199	T	A	--	0.075585	benign
+7	21702763	A	G	--	0.022368	benign (high conf.)
+7	64736539	A	C	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+7	80474080	T	G	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+7	92040995	G	T	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+7	99394321	C	T	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+7	105206113	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+7	107186166	C	T	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+7	111808804	C	T	--	0.020047	benign (high conf.)
+8	2129245	G	C	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+8	17470986	C	A	--	--	Warning: unexpected reference base (expected 'A', but found 'C')
+8	22196292	A	C	--	0.040218	benign
+9	2644144	G	T	--	0.052203	benign
+9	35093530	T	C	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+9	41229905	T	G	--	--	Warning: unexpected reference base (expected 'C', but found 'T')
+9	41229906	A	G	--	0.070905	benign
+9	41229987	G	A	--	--	Warning: unexpected reference base (expected 'A', but found 'G')
+9	62880685	G	T	--	--	No prediction found
+9	69250885	T	G	--	--	Warning: unexpected reference base (expected 'G', but found 'T')
+9	79693752	C	G	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+9	81915142	A	C	--	0.392348	benign
+9	92274385	C	A	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+9	129110977	A	C	--	0.041955	benign
+9	131117993	A	C	--	--	Warning: unexpected reference base (expected 'C', but found 'A')
+9	133472046	G	A	--	--	Warning: unexpected reference base (expected 'C', but found 'G')
+9	134155272	C	G	--	--	Warning: unexpected reference base (expected 'T', but found 'C')
+9	134782781	A	G	--	--	Warning: unexpected reference base (expected 'T', but found 'A')
+X	51332989	A	G	--	--	Predictions not available for allosomal chromosome 'X'
+X	53380790	T	C	--	--	Predictions not available for allosomal chromosome 'X'
+X	119934456	G	A	--	--	Predictions not available for allosomal chromosome 'X'
+X	119934461	G	A	--	--	Predictions not available for allosomal chromosome 'X'
+X	149830784	A	G	--	--	Predictions not available for allosomal chromosome 'X'
