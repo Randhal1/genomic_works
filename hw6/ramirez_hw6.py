@@ -1,14 +1,17 @@
-#!/home/randhal/proj/genomic_env/bin/python
+#!/Users/randhal/Documents/Interpreters/xptopics/bin/python
+import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import sklearn
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
+from sklearn.cluster import KMeans
+from sklearn import datasets
+
 
 # Solves item 1.1
 def cleaner11(normal, tumor):
@@ -146,7 +149,7 @@ def merger13(normal, tumor):
     aml_tx.to_csv("AML_tx.csv")    
 
 
-def task2solver():
+def task2solver(newtest=False):
     # Start the example using the Iris DF. 
     iris = load_iris()
     df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
@@ -155,12 +158,20 @@ def task2solver():
     # Print the initial data
     print(df) 
 
+    # define a new set of parameters for testing 
+    if newtest==True:
+        size = 0.45
+        estimators = 10
+    else:
+        size = 0.2
+        estimators = 100 
+
     # Here we will separate the features (X) and the target variable (y).
     X = df.iloc[:, :-1].values
     y = df.iloc[:, -1].values
     
     # Split for training and confirmation 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) 
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=size, random_state=42) 
 
     # Feature scaling 
     scaler = StandardScaler()
@@ -168,7 +179,7 @@ def task2solver():
     X_test = scaler.transform(X_test)
     
     # Build the classifier
-    classifier = RandomForestClassifier(n_estimators=100, random_state=42)
+    classifier = RandomForestClassifier(n_estimators=estimators, random_state=42)
     classifier.fit(X_train, y_train)
     y_pred = classifier.predict(X_test)
 
@@ -195,6 +206,76 @@ def task2solver():
     plt.show()
 
 
+def task3solver(test=False):
+    # Code source: Gaël Varoquaux
+    # Modified for documentation by Jaques Grobler
+    # License: BSD 3 clause
+    # Though the following import is not directly being used, it is required
+    # for 3D projection to work with matplotlib < 3.2
+    np.random.seed(5)
+
+
+    if test==True:
+        k1 = 4
+        k2 = 2
+    else:
+        k1 = 8
+        k2 = 3        
+
+    iris = datasets.load_iris()
+    X = iris.data
+    y = iris.target
+    
+    estimators = [
+        ("k_means_iris_8", KMeans(n_clusters=k1)),
+        ("k_means_iris_3", KMeans(n_clusters=k2)),
+        ("k_means_iris_bad_init", KMeans(n_clusters=k2, n_init=1, init="random")),
+    ]
+    
+    fig = plt.figure(figsize=(10, 8))
+    titles = [f"{k1} clusters", f"{k2} clusters", f"{k2} clusters, bad initialization"]
+    for idx, ((name, est), title) in enumerate(zip(estimators, titles)):
+        ax = fig.add_subplot(2, 2, idx + 1, projection="3d", elev=48, azim=134)
+        est.fit(X)
+        labels = est.labels_
+    
+        ax.scatter(X[:, 3], X[:, 0], X[:, 2], c=labels.astype(float), edgecolor="k")
+    
+        ax.xaxis.set_ticklabels([])
+        ax.yaxis.set_ticklabels([])
+        ax.zaxis.set_ticklabels([])
+        ax.set_xlabel("Petal width")
+        ax.set_ylabel("Sepal length")
+        ax.set_zlabel("Petal length")
+        ax.set_title(title)
+    
+    # Plot the ground truth
+    ax = fig.add_subplot(2, 2, 4, projection="3d", elev=48, azim=134)
+    
+    for name, label in [("Setosa", 0), ("Versicolour", 1), ("Virginica", 2)]:
+        ax.text3D(
+            X[y == label, 3].mean(),
+            X[y == label, 0].mean(),
+            X[y == label, 2].mean() + 2,
+            name,
+            horizontalalignment="center",
+            bbox=dict(alpha=0.2, edgecolor="w", facecolor="w"),
+        )
+    
+    ax.scatter(X[:, 3], X[:, 0], X[:, 2], c=y, edgecolor="k")
+    
+    ax.xaxis.set_ticklabels([])
+    ax.yaxis.set_ticklabels([])
+    ax.zaxis.set_ticklabels([])
+    ax.set_xlabel("Petal width")
+    ax.set_ylabel("Sepal length")
+    ax.set_zlabel("Petal length")
+    ax.set_title("Ground Truth")
+    
+    plt.subplots_adjust(wspace=0.25, hspace=0.25)
+    plt.show()
+
+
 if __name__=='__main__':
     # Import them data from HW3 
     normal = pd.read_csv("ALL_Normal.csv")
@@ -207,14 +288,15 @@ if __name__=='__main__':
     merger12(group_normal, group_tumor) 
     
     # Answer questions from task 1.3
-    merger13(normal, tumor)
+    #merger13(normal, tumor)
 
     # Complete the tutorial from task 2
     task2solver()
+    task2solver(newtest=True)
 
-
-
-
+    # Complete tutorial from task3
+    task3solver()
+    task3solver(test=True)
 
 
 
