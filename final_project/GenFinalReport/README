@@ -1,0 +1,80 @@
+Document class elbioimp2
+------------------------
+A LaTeX document class for the Journal of Electrical Bioimpedance
+(This is revised version of 'elbioimp' to implement the new layout.)
+Version 2.0.1 dated 28th September 2020
+
+
+Files
+-----
+README                     - this file
+elbioimp2.cls              - the document class
+elbioimp2-head.png         - document header image (in PNG)
+elbioimp2-head.eps         - document header image (in EPS)
+elbioimp2-basis.tex        - a basis for writing your own articles
+elbioimp2-guidelines.tex   - a test document
+elbioimp2-guidelines.pdf   - the test document (processed)
+demo.bib                   - a sample bibliography
+test-ill.png               - an illustration for the test document
+elbioimp-documentation.tex - the document class documentation
+elbioimp-documentation.pdf - the documentation in PDF formastr
+
+
+Licence
+-------
+
+This document class and the documentation are distributed according to
+the LaTeX Project Public License, see http://www.latex-project.org/lppl.txt
+
+
+Requirements
+------------
+The document class should run with any recent standard LaTeX distribution; 
+it was tested with TeXlive 2020. The following packages are needed:
+
+babel    - for handling language settings
+biblatex - for handling the bibliography
+csquotes - for internationbal quote marks
+cmbright - for using the Computer Modern Bright font
+color    - for coloured text
+fancyhdr - for modifying the page headers
+fontenc  - for using the T1 font encoding
+geometry - for specifying page dimensions
+graphicx - for including images
+hyperref - for hyperlinks
+ifthen   - for simple if-tests
+pagelstx - for getting the page number of the last page
+textcomp - for access to the © character
+titlesec - for modifying the section headers
+url      - for typesetting e-mail addresses and URLs
+
+Also, the program 'biber' is needed to prepare the bibliography.
+
+All these should be available in a standard LaTeX distribution.
+However, the `vancouver' BibLaTeX style is fairly recent, so you 
+may need to update your biblatex files if they does not contain
+`vancouver'.
+
+
+Installation
+------------
+
+Put elbioimp2.cls and the two elbioimp2-head.* files in a folder where
+LaTeX will find them. (Remember to rebuild the file name database.)
+
+(If you don't know how to do this, you may just put the files in the
+same folder as your LaTeX files.)
+
+
+Documentation
+-------------
+
+For documentation, see the file elbioimp2-documentation.pdf.
+
+
+Use
+---
+
+I recommend starting with a copy of elbioimp2-basis.tex. Modify 
+the settings (as specified in the comments -- look particularly 
+for the word "OPTION") to write your article.

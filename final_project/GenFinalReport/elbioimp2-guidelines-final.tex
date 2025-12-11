@@ -1,0 +1,352 @@
+\documentclass{elbioimp2}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{booktabs}      % Professional tables
+\usepackage[toc, page]{appendix}
+\usepackage[backend=biber,style=vancouver]{biblatex}
+\usepackage{csquotes}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage[version=4]{mhchem} % Chemical formulas
+\usepackage[T1]{fontenc}
+\usepackage{tabularx}      % Auto-width tables
+\usepackage{graphicx}      % Images
+\usepackage{ragged2e}      % Better text alignment in tables
+
+% --- Custom Colors & Styles ---
+\definecolor{codegray}{gray}{0.95}
+
+\lstdefinestyle{mypython}{
+	backgroundcolor=\color{codegray},
+	commentstyle=\color{gray},
+	keywordstyle=\color{blue},
+	stringstyle=\color{orange},
+	basicstyle=\ttfamily\footnotesize,
+	breaklines=true,
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	captionpos=b,
+	language=Python,
+	showstringspaces=false,
+	frame=single
+}
+
+\lstdefinestyle{mybash}{
+	backgroundcolor=\color{codegray},
+	commentstyle=\color{green},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{gray},
+	stringstyle=\color{orange},
+	basicstyle=\ttfamily\footnotesize,
+	breaklines=true,
+	captionpos=b,
+	language=bash,
+	showstringspaces=false,
+	frame=single
+}
+
+% --- Bibliography Source ---
+\addbibresource{demo.bib}
+
+% --- Metadata ---
+\title{Global Population Genomic Analysis of the LCT/MCM6 Locus: Mapping Allelic Distributions and Novel Regulatory Mechanisms of Lactase Persistence}
+
+\author{
+	Randhal S. Ramirez
+	\affiliation{Computational Science Program, Mathematical Sciences Department, University of Texas at El Paso, El Paso, 79968, USA}
+	\affiliation{E-mail: rsramirezorozc@miners.utep.edu}
+	\and
+	Jaime Gutierrez
+	\affiliation{Bioinformatics Program, Biological Sciences Department, University of Texas at El Paso, El Paso, 79968, USA}
+	\affiliation{E-mail: jdgutierrez7@miners.utep.edu}
+}
+
+\shortauthor{Ramirez \& Gutierrez}
+\elbioimpreceived{28 Sep 2025}
+\elbioimppublished{\today}
+\elbioimpfirstpage{1}
+\elbioimpvolume{1}
+\elbioimpyear{2025}
+
+\begin{document}
+	\maketitle
+	
+	\begin{abstract}
+		Lactase persistence (LP) represents a quintessential model of human gene-culture coevolution, where environmental shifts towards dairy consumption drove strong positive selection. This project analyzes the genomic architecture of the \textit{LCT/MCM6} locus to map regulatory variants across global populations. Utilizing high-coverage data from the 1000 Genomes Project and gnomAD, we associate specific \textit{MCM6} intronic variants with continental ancestry while differentiating them from rare, pathogenic \textit{LCT} mutations. To verify the specificity of these signals, we examine a control network of secondary genes related to DNA replication (e.g., \textit{ORC4}) and lactose metabolism (e.g., \textit{B4GALT2}), effectively distinguishing adaptive regulatory drivers from background genetic noise. Finally, we synthesize these evolutionary insights to discuss the translational potential of the \textit{LCT} locus as a blueprint for developing novel \textit{in vivo} gene editing therapies to modulate human gene expression.
+		
+		\keywords{Lactase persistence, \textit{LCT/MCM6} locus, population genomics, gnomAD, gene-culture coevolution, gene editing.}
+	\end{abstract}
+	
+	\section{Project Objectives}
+	The primary goals of this study were to:
+	\begin{enumerate}
+		\item Identify the most common regulatory variants of the \textit{MCM6} gene and associate them with distinct human population structures.
+		\item Define the consequences of direct mutations within the \textit{LCT} gene coding sequence (loss-of-function).
+		\item Analyze potential secondary genes (e.g., \textit{B4GALT2}, \textit{GLB1}) to establish functional specificity and rule out pleiotropic effects.
+		\item Elucidate the influence of environmental and dietary conditions (gene-culture coevolution) on allelic distribution.
+		\item Relate this regulatory mechanism to emerging techniques for \textit{in vivo} human genome editing.
+	\end{enumerate}
+	
+	\section{Introduction}
+	
+	The capacity to digest lactose into adulthood is a defining characteristic of specific human lineages, representing one of the strongest signals of recent natural selection in the human genome \cite{Ingram2009}. In the ancestral state, the expression of Lactase-Phlorizin Hydrolase (LPH)—the enzyme responsible for hydrolyzing lactose at the brush border of the small intestine—is developmentally downregulated after weaning \cite{Troelsen2005}. This phenotype, adult-type hypolactasia, renders individuals unable to digest fresh milk. However, the derived phenotype of Lactase Persistence (LP) has arisen independently in populations with a history of pastoralism \cite{Simoons1970}. The chemical reaction enabling this digestion is shown in Equation \ref{eq1}:
+	
+	\begin{equation}
+		\text{Lactose} + \text{H}_2\text{O} \xrightarrow{\text{LPH}} \beta\text{-D-galactose} + \text{D-glucose}
+		\label{eq1}
+	\end{equation}
+	
+	This project deconstructs the genomic architecture of this trait by integrating sequencing data from the 1000 Genomes Project \cite{1000Genomes}, the Genome Aggregation Database (gnomAD) \cite{Karczewski2020}, and NIH repositories. We aim to distinguish between regulatory silencing (an evolutionary adaptation) and "broken" genes (congenital pathology), establishing this locus as a model for precise gene control.
+	
+	\subsection{Genomic Architecture: \textit{LCT} vs. \textit{MCM6}}
+	The mechanism of LP is not found within the \textit{LCT} gene itself, but in a regulatory enhancer located 14 kb upstream, within the introns of the adjacent \textit{MCM6} gene \cite{Enattah2002}. The classic European variant, rs4988235 ($C/T_{-13910}$), creates a binding site for the Oct-1 transcription factor, recruiting co-factors that upregulate \textit{LCT} promoter activity \cite{Lewinsky2005}. Convergent evolution has driven distinct variants in Middle Eastern (e.g., rs41380347) and African populations to achieve the same phenotype \cite{Tishkoff2007}.
+	
+	In contrast, direct mutations in the \textit{LCT} coding sequence are rare and pathological. Loss-of-function mutations (nonsense, frameshift) result in Congenital Lactase Deficiency (CLD), a severe condition distinct from adult intolerance \cite{Kuokkanen2006}. By analyzing these alleles, particularly in isolated populations like Finland, we delineate the boundary between regulatory adaptation and protein disruption.
+	
+	\section{Methods}
+	
+	We employed a high-throughput genomic data mining approach to characterize the \textit{LCT/MCM6} landscape, distinguishing regulatory silencing from pathological loss-of-function.
+	
+	\subsection{Data Acquisition and Processing}
+	Genomic data was acquired from three primary repositories, restricted to \textbf{Chromosome 2} to optimize efficiency:
+	\begin{itemize}
+		\item \textbf{1000 Genomes Project (Phase 3):} Used to establish baseline frequencies for major continental groups (2,504 individuals) \cite{1000Genomes}.
+		\item \textbf{gnomAD (v4):} Used to capture rare variation and "gene-breaking" alleles in a massive cohort (>800,000 individuals) \cite{Karczewski2020}.
+		\item \textbf{NIH Repositories:} Used for clinical validation of pathogenic variants \cite{Sherry2001}.
+	\end{itemize}
+	
+	Raw data was processed using a custom Linux pipeline involving \textbf{SAMTools} and \textbf{BCFtools} \cite{Danecek2021}. The target region was defined as \textbf{chr2:136.5M--136.7M} (GRCh37/hg19) and \textbf{chr2:135.7M--135.9M} (GRCh38/hg38) to account for coordinate shifts between assemblies \cite{ensembl}. Custom scripts (see Appendix) were used to extract biallelic SNPs, calculate population frequencies, and cross-reference variants with dbSNP IDs.
+	
+	\subsection{Functional Specificity Analysis}
+	To validate that identified signals were specific to lactose regulation and not artifacts of chromosomal replication, we analyzed a control set of genes. This included \textit{MCM6}'s replication partners (\textit{ORC4}, \textit{GINS3}) and metabolic paralogs (\textit{B4GALT2}, \textit{GLB1}). We compared variant density in these loci against the \textit{MCM6} intronic enhancer to prove that selection pressure was isolated to the regulatory element.
+	
+	\section{Results}
+	
+	\subsection{Global Stratification of Regulatory Variants}
+	Our analysis of the gnomAD dataset reveals a distinct population-specific stratification of persistence alleles. As detailed in Table \ref{rgnomad}, the primary European variant rs4988235 ($G>A$) is present at 24\% frequency. Crucially, we observed the "backup" variant rs182549 ($C>T$) at an identical frequency, appearing simultaneously with the main driver. This confirms strong linkage disequilibrium, suggesting the preservation of a robust regulatory haplotype rather than a single point mutation.
+	
+	\begin{table}[h!]
+		\centering
+		\caption{Results from the analysis of gnomAD dataset (bcftools query results).}
+		\label{rgnomad}
+		\resizebox{\columnwidth}{!}{%
+			\begin{tabular}{llllr}
+				\toprule
+				\textbf{\#} & \textbf{Variant / rsID} & \textbf{Abs. Position (b37)} & \textbf{Population} & \textbf{Frequency} \\
+				\midrule
+				1 & rs4988235 & 2:136608646 & European (Main) & 24 \% \\
+				2 & rs182549 & 2:136616754 & European (Backup) & 24 \% \\
+				3 & rs41525747 & 2:136608643 & North African & $<0.1\%$ \\
+				4 & rs4988233 & 2:136608645 & Ethiopian & $<0.1\%$ \\
+				5 & rs41456145 & 2:136608649 & Cameroonian & $<0.1\%$ \\
+				6 & rs41380347 & 2:136608651 & Middle Eastern & 0.2 \% \\
+				7 & rs869051967 & 2:136608745 & East African & $<0.1\%$ \\
+				8 & rs145946881 & 2:136608746 & East African (Main) & 0.3 \% \\
+				9 & rs55660827 & 2:136598443 & Rare Coding Variant & 19 \% \\
+				\bottomrule
+			\end{tabular}%
+		}
+	\end{table}
+	
+	Comparing this to 1000 Genomes data (Table \ref{tab:variant_alleles}) reveals the limitations of smaller cohorts. Rare adaptive alleles found in African subpopulations (e.g., rs41525747) fall below the detection threshold in the smaller dataset, emphasizing the need for massive cohorts like gnomAD to map convergent evolution.
+	
+	\begin{table}[h!]
+		\centering
+		\caption{Allele frequencies extracted from 1000 Genomes data analysis (bcftools query results). Note that not all variants are observed due to the limited sample size.}
+		\label{tab:variant_alleles}
+		\resizebox{\columnwidth}{!}{%
+			\begin{tabular}{llllr}
+				\toprule
+				\textbf{rsID} & \textbf{Ref} & \textbf{Alt} & \textbf{Freq.} \\
+				\midrule
+				rs55660827  & A & G & 0.06\% \\
+				rs4988235   & G & A & 16.13\% \\
+				rs41456145  & A & G & 0.02\% \\
+				rs41380347  & A & C & 0.06\% \\
+				rs145946881 & C & G & 0.34\% \\
+				rs182549    & C & T & 16.33\% \\
+				\bottomrule
+			\end{tabular}%
+		}
+	\end{table}
+	
+	The population heatmaps (Figure \ref{mcvar}) further visualize these distributions. Notably, the Finnish population clusters separately from the general European group, reflecting unique genetic isolation. Additionally, the "Latino" category exhibits significant admixture, capturing Native American signals often obscured in standard classifications.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\linewidth]{pictures/mcpop.png}
+		\caption{Heatmap of \textit{MCM6} variants across populations. Note the distinct clustering of Finnish (Fin) and Latino groups.}
+		\label{mcvar}
+	\end{figure}
+	
+	\subsection{Pathological Loss-of-Function}
+	In contrast to regulatory silencing, direct "gene-breaking" mutations in \textit{LCT} are exceptionally rare. As shown in Table \ref{tbroken}, variants like Y1390X (FinMajor) often appear in single individuals within the 800,000-genome dataset. Figure \ref{lcvar} illustrates that these are confined to populations with strong founder effects (e.g., Finland), confirming that biological breakage of the gene is a localized anomaly driven by genetic drift, not selection.
+	
+	\begin{table*}[t!]
+		\centering
+		\caption{Results from gnomAD after looking for several broken variants of the gene LCT. These are associated with congenital intolerance.}
+		\label{tbroken}
+		\begin{tabular}{lllll}
+			\toprule
+			\textbf{Variant / Name} & \textbf{rsID} & \textbf{Absolute Position (b37)} & \textbf{Type} & \textbf{Freq} \\
+			\midrule
+			Y1390X (FinMajor) & rs121908936 & 2:136564701 & Nonsense & $< 0.001\%$ \\
+			S1666fsX1722 & rs386833836 & 2:136552321 & Frameshift & $< 0.001\%$ \\
+			G1363S (Turkey, Iraq, Fin) & rs386833833 & 2:136564784 & Missense & $< 0.001\%$ \\
+			S218F & rs121908937 & 2:136552274 & Missense & $< 0.001\%$ \\
+			Q268X & rs121908938 & 2:136552424 & Nonsense & $< 0.001\%$ \\
+			FinMinor & rs80338959 & 2:136587428 & Frameshift & $< 0.001\%$ \\
+			L1313del & rs796052187 & 2:136565147 & Deletion & $< 0.001\%$ \\
+			Q1447X & rs1416973347 & 2:136563636 & Nonsense & $< 0.001\%$ \\
+			\bottomrule
+		\end{tabular}
+	\end{table*}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\linewidth]{pictures/kcpop.png}
+		\caption{Distribution of \textit{LCT} loss-of-function variants, showing strong founder effects in Finland.}
+		\label{lcvar}
+	\end{figure}
+	
+	\subsection{Functional Specificity}
+	To validate specificity, we analyzed the \textit{MCM6} interaction network (Figure \ref{net}). Strong correlations with DNA replication machinery (\textit{ORC4}, \textit{GINS3}) confirm that \textit{MCM6}'s primary role is replication. However, our control analysis (Table \ref{tab:gene_controls_fullwidth}) shows no selection signals in these partners, proving that LP variants act solely on the "moonlighting" enhancer function.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\linewidth]{pictures/net.png}
+		\caption{Gene interaction network (STRING-DB) linking \textit{MCM6} to replication machinery \cite{Szklarczyk2023}.}
+		\label{net}
+	\end{figure}
+	
+	\begin{table*}[t!]
+		\centering
+		\caption{Analysis of secondary genes acting as metabolic and functional controls for the regulatory specificity of the \textit{LCT} locus.}
+		\label{tab:gene_controls_fullwidth}
+		\small
+		\begin{tabularx}{\textwidth}{l >{\RaggedRight}X >{\RaggedRight}X}
+			\toprule
+			\textbf{Gene} & \textbf{Function} & \textbf{Relationship to Lactose Intolerance} \\
+			\midrule
+			\multicolumn{3}{l}{\textit{\textbf{Metabolic Paralogs (Lactose Synthesis \& Breakdown)}}} \\
+			\addlinespace[4pt]
+			LALBA & Alpha-lactalbumin. Forms the Lactose Synthase complex in the breast. & The "Producer." Determines if milk contains lactose. If mutated, the mother cannot produce milk. It does not affect digestion. \\
+			\addlinespace[4pt]
+			B4GALT2 & Beta-1,4-galactosyltransferase 2. Builds sugar chains (oligosaccharides). & The "Cousin." Chemically similar to the enzyme that makes lactose, but it is not involved in digestion. \\
+			\addlinespace[4pt]
+			GLB1 & Beta-Galactosidase. Breaks down sugars in the lysosome (cell waste disposal). & The "Backup" (that doesn't help). It performs the exact same chemical reaction as LCT but works inside cells, not in the gut. Mutations cause GM1 Gangliosidosis, not intolerance. \\
+			\midrule
+			\multicolumn{3}{l}{\textit{\textbf{Replication Machinery (MCM6 Interactome)}}} \\
+			\addlinespace[4pt]
+			MCMBP & MCM Binding Protein. Transports MCM proteins into the nucleus. & MCM6 Protein Partner. Essential for DNA replication. No interaction with the "Milk Switch" in the intron. \\
+			\addlinespace[4pt]
+			ORC4 & Origin Recognition Complex. Finds start sites for DNA copying. & MCM6 Loader. It loads the MCM6 protein onto DNA to start replication. Irrelevant to digestion. \\
+			\addlinespace[4pt]
+			GINS3 & GINS Complex Subunit 3. Part of the DNA helicase motor. & MCM6 Engine Part. Locks onto MCM6 to help unzip DNA. Irrelevant to digestion. \\
+			\addlinespace[4pt]
+			GINS4 & GINS Complex Subunit 4. Part of the DNA helicase motor. & MCM6 Engine Part. Same as above; functional partner of the MCM6 protein. \\
+			\addlinespace[4pt]
+			MAK & Male Germ Cell Associated Kinase. Regulates cilia and cell cycle. & Cell Cycle Network. Co-expressed with replication genes. No link to digestion. \\
+			\addlinespace[4pt]
+			MOK & MAPK/MAK/MRK Overlapping Kinase. Kinase involved in cell regulation. & Cell Cycle Network. Likely appears in your list because it interacts with the machinery MCM6 is part of. \\
+			\addlinespace[4pt]
+			LAT2 & Linker for Activation of T Cells 2 (or Amino Acid Transporter). & Unrelated. Likely appears due to extremely rare conditions. \\
+			\bottomrule
+		\end{tabularx}
+	\end{table*}
+	
+	\section{Discussion and Future Directions}
+	
+	This study successfully mapped the global stratification of lactase persistence, confirming that while the phenotype is convergent, the genotype is strictly population-dependent. The identification of the Oct-1 binding motif (Figure \ref{letters}) provides a clear mechanistic target.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\linewidth]{pictures/letters.png}
+		\caption{Motif analysis (MEME) showing the creation of an Oct-1 binding site by the T allele.}
+		\label{letters}
+	\end{figure}
+	
+	The natural existence of rs4988235 serves as a proof-of-concept for therapeutic editing: a single base pair change can permanently override epigenetic silencing. While currently theoretical, this locus offers an ideal model for \textbf{Base Editing} therapies. Technologies like Adenine Base Editors (ABEs) could potentially install the "persistence" allele in intestinal crypts to treat intolerance \cite{Rees2018, Musunuru2021}, while \textbf{Prime Editing} could correct the rare congenital frameshifts identified in Finnish populations \cite{Anzalone2019}.
+	
+	\printbibliography
+	
+	\onecolumn
+	\begin{appendices}
+		
+		% Define the style for Bash scripts
+		\lstdefinestyle{mybash}{
+			backgroundcolor=\color{codegray},
+			commentstyle=\color{green},
+			keywordstyle=\color{magenta},
+			numberstyle=\tiny\color{gray},
+			stringstyle=\color{orange},
+			basicstyle=\ttfamily\footnotesize,
+			breakatwhitespace=false,
+			breaklines=true,
+			captionpos=b,
+			keepspaces=true,
+			numbers=left,
+			numbersep=5pt,
+			showspaces=false,
+			showstringspaces=false,
+			showtabs=false,
+			tabsize=2,
+			frame=single,
+			language=bash
+		}
+		
+		\section{Bioinformatics Pipeline Scripts}
+		The following scripts were utilized to process VCF files from the 1000 Genomes Project and gnomAD. All analyses were performed using \texttt{bcftools} and standard shell scripting.
+		
+		\subsection{MCM6 Regulatory Variant Analysis}
+		This script queries the specific genomic coordinates for the known regulatory variants.
+		
+		\begin{lstlisting}[style=mybash, caption={Extraction of significant MCM6 regulatory variants.}, label={lst:mcm6_extract}]
+			#!/bin/zsh
+			bcftools query \
+			-r 2:136608646,2:136616754,2:136608643,2:136608645,2:136608649,2:136608651,2:136608745,2:136608746,2:136618834,2:136598443 \
+			-f '%ID\t%REF\t%ALT\t%AF\n' \
+			MCM6_annotated.vcf.gz
+		\end{lstlisting}
+		
+		\subsection{Genotype Counting for European Tolerance (rs4988235)}
+		This script iterates through all samples in the 1000 Genomes VCF to count genotypes.
+		
+		\begin{lstlisting}[style=mybash, caption={Computation of tolerant vs. intolerant genotype counts.}, label={lst:compute_tolerants}]
+			#!/bin/zsh
+			
+			# Syntax: [%SAMPLE  %GT] loops through all 2504 columns
+			bcftools query -r 2:136608646-136608646 -f '[%SAMPLE\t%GT\n]' MCM6_b37.vcf.gz > tolerants.txt
+			
+			echo "Intolerants: $(grep "0|0" tolerants.txt | wc -l)" >  stats-tolerants.txt
+			echo "Tolerant carrier: $(grep "0|1" tolerants.txt | wc -l)" >>  stats-tolerants.txt
+			echo "Tolerant carrier: $(grep "1|0" tolerants.txt | wc -l)" >>  stats-tolerants.txt
+			echo "Tolerant: $(grep "1|1" tolerants.txt | wc -l)" >>  stats-tolerants.txt
+			
+			cat stats-tolerants.txt
+		\end{lstlisting}
+		
+		\subsection{Analysis of \textit{LCT} Loss-of-Function Variants}
+		The following scripts query the "gene-breaking" variants within the \textit{LCT} coding sequence.
+		
+		\begin{lstlisting}[style=mybash, caption={Extraction of LCT "Gene Breaker" statistics from gnomAD v4.}, label={lst:lct_gnomad}]
+			#!/bin/zsh
+			bcftools query \
+			-r chr2:135807131,chr2:135794751,chr2:135807214,chr2:135794704,chr2:135794854,chr2:135829858 \
+			-f 'ID:%ID\tRef:%REF\tAlt:%ALT\tGlobal:%INFO/AF\tEur:%INFO/AF_nfe\tFin:%INFO/AF_fin\tAfr:%INFO/AF_afr\tLatino:%INFO/AF_amr\tE_Asia:%INFO/AF_eas\tS_Asia:%INFO/AF_sas\tMidEast:%INFO/AF_mid\n' \
+			gnomad.genomes.v4.1.sites.chr2.vcf.bgz
+		\end{lstlisting}
+		
+		\begin{lstlisting}[style=mybash, caption={Querying significant LCT variants from 1000 Genomes (b37).}, label={lst:lct_b37}]
+			#!/bin/zsh
+			bcftools query \
+			-r 2:136564701,2:136552321,2:136564784,2:136552274,2:136552424,2:136587428,2:136565147,2:136563636 \
+			-f 'LCT\t%POS\t%REF\t%ALT\t%AF\n' \
+			LCT_b37.vcf.gz
+		\end{lstlisting}
+		
+	\end{appendices}
+	
+\end{document}

@@ -1,0 +1,1263 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Ingram2009}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=e2436bbc11bffe0f2f3d937c93655f7a}{%
+           family={Ingram},
+           familyi={I\bibinitperiod},
+           given={C.J.E.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8747d251ed678a3ad7a4b74bd8ee9b45}{%
+           family={Mulcare},
+           familyi={M\bibinitperiod},
+           given={C.A.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fb8ba1b2c37e20bd5aed13e696b5cc46}{%
+           family={Itan},
+           familyi={I\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3bf1a12d93d404a8facf0cedb4be9e56}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={M.G.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=113ae5782bbd27d90302bef6cf67e78f}{%
+           family={Swallow},
+           familyi={S\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{001c5daee3979e0599fab184bceeaaba}
+      \strng{fullhash}{70efaf0672bceefd434fb2dc3881087f}
+      \strng{fullhashraw}{70efaf0672bceefd434fb2dc3881087f}
+      \strng{bibnamehash}{70efaf0672bceefd434fb2dc3881087f}
+      \strng{authorbibnamehash}{70efaf0672bceefd434fb2dc3881087f}
+      \strng{authornamehash}{001c5daee3979e0599fab184bceeaaba}
+      \strng{authorfullhash}{70efaf0672bceefd434fb2dc3881087f}
+      \strng{authorfullhashraw}{70efaf0672bceefd434fb2dc3881087f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human Genetics}
+      \field{number}{6}
+      \field{title}{Lactose digestion and the evolutionary genetics of lactase persistence}
+      \field{volume}{124}
+      \field{year}{2009}
+      \field{pages}{579\bibrangedash 591}
+      \range{pages}{13}
+    \endentry
+    \entry{Troelsen2005}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b887cd79ae4f3016370e68fe181bc289}{%
+           family={Troelsen},
+           familyi={T\bibinitperiod},
+           given={J.T.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{fullhash}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{fullhashraw}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{bibnamehash}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{authorbibnamehash}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{authornamehash}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{authorfullhash}{b887cd79ae4f3016370e68fe181bc289}
+      \strng{authorfullhashraw}{b887cd79ae4f3016370e68fe181bc289}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Gene Structure and Expression}
+      \field{number}{9}
+      \field{title}{Adult-type hypolactasia and regulation of lactase expression}
+      \field{volume}{1758}
+      \field{year}{2005}
+      \field{pages}{1220\bibrangedash 1237}
+      \range{pages}{18}
+    \endentry
+    \entry{Simoons1970}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2efba7d114565a776df7bbb3e1eea230}{%
+           family={Simoons},
+           familyi={S\bibinitperiod},
+           given={F.J.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{fullhash}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{fullhashraw}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{bibnamehash}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{authorbibnamehash}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{authornamehash}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{authorfullhash}{2efba7d114565a776df7bbb3e1eea230}
+      \strng{authorfullhashraw}{2efba7d114565a776df7bbb3e1eea230}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Journal of Digestive Diseases}
+      \field{number}{8}
+      \field{title}{Primary adult lactose intolerance and the milking habit: a problem in biologic and cultural interrelations}
+      \field{volume}{15}
+      \field{year}{1970}
+      \field{pages}{695\bibrangedash 710}
+      \range{pages}{16}
+    \endentry
+    \entry{1000Genomes}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=378f8c002daa4759d9b2bf984e340892}{%
+           family={Consortium},
+           familyi={C\bibinitperiod},
+           given={The\bibnamedelimb 1000\bibnamedelimb Genomes\bibnamedelima Project},
+           giveni={T\bibinitperiod\bibinitdelim 1\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{378f8c002daa4759d9b2bf984e340892}
+      \strng{fullhash}{378f8c002daa4759d9b2bf984e340892}
+      \strng{fullhashraw}{378f8c002daa4759d9b2bf984e340892}
+      \strng{bibnamehash}{378f8c002daa4759d9b2bf984e340892}
+      \strng{authorbibnamehash}{378f8c002daa4759d9b2bf984e340892}
+      \strng{authornamehash}{378f8c002daa4759d9b2bf984e340892}
+      \strng{authorfullhash}{378f8c002daa4759d9b2bf984e340892}
+      \strng{authorfullhashraw}{378f8c002daa4759d9b2bf984e340892}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{A global reference for human genetic variation}
+      \field{volume}{526}
+      \field{year}{2015}
+      \field{pages}{68\bibrangedash 74}
+      \range{pages}{7}
+    \endentry
+    \entry{Karczewski2020}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{9}{}{%
+        {{hash=b684787e6356f39413612608532c702d}{%
+           family={Karczewski},
+           familyi={K\bibinitperiod},
+           given={K.J.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=46e4e2797260afeff53702814038c3b0}{%
+           family={Francioli},
+           familyi={F\bibinitperiod},
+           given={L.C.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=41aaae72dca8afdcab116ac8aa0800db}{%
+           family={Tiao},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3105f47455c17dbd264b01a5446150eb}{%
+           family={Cummings},
+           familyi={C\bibinitperiod},
+           given={B.B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f9fb7011bd4d8d91a897967cfd6569ed}{%
+           family={Alföldi},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=415d15406f27ab6319fe3dc2d7408598}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=ffb2ae528075d9b312918fc873ed56a6}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={R.L.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6698605388dc4a59ea337a315f187bbb}{%
+           family={Laricchia},
+           familyi={L\bibinitperiod},
+           given={K.M.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8e830dfb01c2d7234bb840765e5e6277}{%
+           family={Ganna},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{16b767ba6ec64995acfd9fe4c7bef88b}
+      \strng{fullhash}{93bd4a0998af7eb8eb77a4e9e6f45839}
+      \strng{fullhashraw}{93bd4a0998af7eb8eb77a4e9e6f45839}
+      \strng{bibnamehash}{93bd4a0998af7eb8eb77a4e9e6f45839}
+      \strng{authorbibnamehash}{93bd4a0998af7eb8eb77a4e9e6f45839}
+      \strng{authornamehash}{16b767ba6ec64995acfd9fe4c7bef88b}
+      \strng{authorfullhash}{93bd4a0998af7eb8eb77a4e9e6f45839}
+      \strng{authorfullhashraw}{93bd4a0998af7eb8eb77a4e9e6f45839}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{The mutational constraint spectrum quantified from variation in 141,456 humans}
+      \field{volume}{581}
+      \field{year}{2020}
+      \field{pages}{434\bibrangedash 443}
+      \range{pages}{10}
+    \endentry
+    \entry{Enattah2002}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=a534098c11bbfdb903c9b9ff7c27fd17}{%
+           family={Enattah},
+           familyi={E\bibinitperiod},
+           given={N.S.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5697c5fe795925cad73ef77fead72822}{%
+           family={Sahi},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=cd91faf2077f1fb133851936e519f23c}{%
+           family={Savilahti},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=5c49fe6ff39381250d39a4f4fc260be6}{%
+           family={Terwilliger},
+           familyi={T\bibinitperiod},
+           given={J.D.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c80bafc1ad753ab60afadde48670953}{%
+           family={Peltonen},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ae074d6e26730553c8b2911dca7fb4b6}{%
+           family={Järvelä},
+           familyi={J\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{d4c248950659c1a7abdc77dc1d81abad}
+      \strng{fullhash}{f8db51d2b312b9a2fa09f46186487b1d}
+      \strng{fullhashraw}{f8db51d2b312b9a2fa09f46186487b1d}
+      \strng{bibnamehash}{f8db51d2b312b9a2fa09f46186487b1d}
+      \strng{authorbibnamehash}{f8db51d2b312b9a2fa09f46186487b1d}
+      \strng{authornamehash}{d4c248950659c1a7abdc77dc1d81abad}
+      \strng{authorfullhash}{f8db51d2b312b9a2fa09f46186487b1d}
+      \strng{authorfullhashraw}{f8db51d2b312b9a2fa09f46186487b1d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Genetics}
+      \field{number}{2}
+      \field{title}{Identification of a variant associated with adult-type hypolactasia}
+      \field{volume}{30}
+      \field{year}{2002}
+      \field{pages}{233\bibrangedash 237}
+      \range{pages}{5}
+    \endentry
+    \entry{Lewinsky2005}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=446beb27f48c9fea91c3dfae1ca23fc0}{%
+           family={Lewinsky},
+           familyi={L\bibinitperiod},
+           given={R.H.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e9adf23731e4c69c9e32d2e151b08621}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={T.G.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2d1db4e1e515b66dfc242aecd9c07182}{%
+           family={M{ø}ller},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=26ef47c732f07811d42e68a39e07d6b1}{%
+           family={Stensballe},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=140b79c78e37c350704669b6c808d9bf}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b887cd79ae4f3016370e68fe181bc289}{%
+           family={Troelsen},
+           familyi={T\bibinitperiod},
+           given={J.T.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{17ee191c50e14cf178bedac91548caac}
+      \strng{fullhash}{0b3c4a85c377b3c7c311c85ce31de647}
+      \strng{fullhashraw}{0b3c4a85c377b3c7c311c85ce31de647}
+      \strng{bibnamehash}{0b3c4a85c377b3c7c311c85ce31de647}
+      \strng{authorbibnamehash}{0b3c4a85c377b3c7c311c85ce31de647}
+      \strng{authornamehash}{17ee191c50e14cf178bedac91548caac}
+      \strng{authorfullhash}{0b3c4a85c377b3c7c311c85ce31de647}
+      \strng{authorfullhashraw}{0b3c4a85c377b3c7c311c85ce31de647}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human Molecular Genetics}
+      \field{number}{24}
+      \field{title}{T-13910 DNA variant associated with lactase persistence interacts with Oct-1 and stimulates lactase promoter activity in vitro}
+      \field{volume}{14}
+      \field{year}{2005}
+      \field{pages}{3945\bibrangedash 3953}
+      \range{pages}{9}
+    \endentry
+    \entry{Tishkoff2007}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{9}{}{%
+        {{hash=bb5ab991eaaeb57f2d7b1c249fdd9da4}{%
+           family={Tishkoff},
+           familyi={T\bibinitperiod},
+           given={S.A.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dd021d16ba4545c13400d3c3c2773974}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={F.A.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1e927db4ce635629c7fff3c36eb175b8}{%
+           family={Ranciaro},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ed1068e3ab38ec35aeae7cee3a59e9d3}{%
+           family={Voight},
+           familyi={V\bibinitperiod},
+           given={B.F.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b7731851bc9bf92717439844b432c936}{%
+           family={Babbitt},
+           familyi={B\bibinitperiod},
+           given={C.C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=bdcead1b6b4fd13ce117668c861860f4}{%
+           family={Silverman},
+           familyi={S\bibinitperiod},
+           given={J.S.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6b4d01b9116770fb0dba489eec286cb4}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1547e1b94312fc15140cd3ab3cef0ce8}{%
+           family={Simon},
+           familyi={S\bibinitperiod},
+           given={H.M.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=1bea5e9528011b294d286ae1a92127a0}{%
+           family={Embleton},
+           familyi={E\bibinitperiod},
+           given={C.A.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{37ef5e579ffd9fafde7e5f65bbe84f7d}
+      \strng{fullhash}{066e90ce6169eb4438f5bc6c513345ec}
+      \strng{fullhashraw}{066e90ce6169eb4438f5bc6c513345ec}
+      \strng{bibnamehash}{066e90ce6169eb4438f5bc6c513345ec}
+      \strng{authorbibnamehash}{066e90ce6169eb4438f5bc6c513345ec}
+      \strng{authornamehash}{37ef5e579ffd9fafde7e5f65bbe84f7d}
+      \strng{authorfullhash}{066e90ce6169eb4438f5bc6c513345ec}
+      \strng{authorfullhashraw}{066e90ce6169eb4438f5bc6c513345ec}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Genetics}
+      \field{number}{1}
+      \field{title}{Convergent adaptation of human lactase persistence in Africa and Europe}
+      \field{volume}{39}
+      \field{year}{2007}
+      \field{pages}{31\bibrangedash 40}
+      \range{pages}{10}
+    \endentry
+    \entry{Kuokkanen2006}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=01b3400b1bac81f938d1a89a2fe711d0}{%
+           family={Kuokkanen},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8d829e59d77a75d413fdcf265ec4c14d}{%
+           family={Kokkonen},
+           familyi={K\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a534098c11bbfdb903c9b9ff7c27fd17}{%
+           family={Enattah},
+           familyi={E\bibinitperiod},
+           given={N.S.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9d60dc3824e73e3e5fbe241c5f4e23c0}{%
+           family={Ylisaukko-Oja},
+           familyi={Y\bibinithyphendelim O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7a8b7c7296e93661a2eadc44373c332f}{%
+           family={Komu},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b543f91b8a576d4874d93b0aa14afeee}{%
+           family={Varilo},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1c80bafc1ad753ab60afadde48670953}{%
+           family={Peltonen},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=cd91faf2077f1fb133851936e519f23c}{%
+           family={Savilahti},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=ae074d6e26730553c8b2911dca7fb4b6}{%
+           family={Järvelä},
+           familyi={J\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{cf52dd862c76753cec395093854f8423}
+      \strng{fullhash}{289bc136e6e5402399c48d3ce312b352}
+      \strng{fullhashraw}{289bc136e6e5402399c48d3ce312b352}
+      \strng{bibnamehash}{289bc136e6e5402399c48d3ce312b352}
+      \strng{authorbibnamehash}{289bc136e6e5402399c48d3ce312b352}
+      \strng{authornamehash}{cf52dd862c76753cec395093854f8423}
+      \strng{authorfullhash}{289bc136e6e5402399c48d3ce312b352}
+      \strng{authorfullhashraw}{289bc136e6e5402399c48d3ce312b352}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Human Genetics}
+      \field{number}{2}
+      \field{title}{Mutations in the translated region of the lactase gene (LCT) underlie congenital lactase deficiency}
+      \field{volume}{78}
+      \field{year}{2006}
+      \field{pages}{339\bibrangedash 344}
+      \range{pages}{6}
+    \endentry
+    \entry{Gerbault2011}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=6186b7672a4f384003e5b4ae00e5b9c8}{%
+           family={Gerbault},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=72dd64530e0159da6546334412be1e42}{%
+           family={Liebert},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb8ba1b2c37e20bd5aed13e696b5cc46}{%
+           family={Itan},
+           familyi={I\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=505c8c38dd83311d8eb0993129e8cf29}{%
+           family={Powell},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b8b3f30a0f44250557ade3b9deac52c9}{%
+           family={Currat},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d3b9d79dead05a78befcf6035a384f8}{%
+           family={Burger},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=113ae5782bbd27d90302bef6cf67e78f}{%
+           family={Swallow},
+           familyi={S\bibinitperiod},
+           given={D.M.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3bf1a12d93d404a8facf0cedb4be9e56}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={M.G.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{3db7a67443e2ac7939b1fe467da598ec}
+      \strng{fullhash}{f59f0c03a314be5e7d7ce022c73c2931}
+      \strng{fullhashraw}{f59f0c03a314be5e7d7ce022c73c2931}
+      \strng{bibnamehash}{f59f0c03a314be5e7d7ce022c73c2931}
+      \strng{authorbibnamehash}{f59f0c03a314be5e7d7ce022c73c2931}
+      \strng{authornamehash}{3db7a67443e2ac7939b1fe467da598ec}
+      \strng{authorfullhash}{f59f0c03a314be5e7d7ce022c73c2931}
+      \strng{authorfullhashraw}{f59f0c03a314be5e7d7ce022c73c2931}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society B: Biological Sciences}
+      \field{number}{1566}
+      \field{title}{Evolution of lactase persistence: an example of human niche construction}
+      \field{volume}{366}
+      \field{year}{2011}
+      \field{pages}{863\bibrangedash 877}
+      \range{pages}{15}
+    \endentry
+    \entry{Bersaglieri2004}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{8}{}{%
+        {{hash=ff8287b0d30291ce5dc9c8f4567c8e20}{%
+           family={Bersaglieri},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ba218799744aee1ed965de643b9a79d4}{%
+           family={Sabeti},
+           familyi={S\bibinitperiod},
+           given={P.C.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=62d8a2637c58d1f5ac4bd523405f2704}{%
+           family={Patterson},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=2eb6a11f97135b468bd95cb05cb9faf8}{%
+           family={Vanderloecht},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=75f16b6ece972a8c2c29586f67230dc8}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={A.M.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=202b2b1a00d0b7d774653da3c86121d3}{%
+           family={Ueda},
+           familyi={U\bibinitperiod},
+           given={J.J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7f4031b630db67997a186f0b9d0648d7}{%
+           family={Lagerberg},
+           familyi={L\bibinitperiod},
+           given={R.H.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=bc05b3760851b9e4f932d1372c7cc1d7}{%
+           family={Barton},
+           familyi={B\bibinitperiod},
+           given={R.M.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{032c3034ae93c96f6a75c72549e9412b}
+      \strng{fullhash}{8139021320a6a35fdcabea18c1ea1316}
+      \strng{fullhashraw}{8139021320a6a35fdcabea18c1ea1316}
+      \strng{bibnamehash}{8139021320a6a35fdcabea18c1ea1316}
+      \strng{authorbibnamehash}{8139021320a6a35fdcabea18c1ea1316}
+      \strng{authornamehash}{032c3034ae93c96f6a75c72549e9412b}
+      \strng{authorfullhash}{8139021320a6a35fdcabea18c1ea1316}
+      \strng{authorfullhashraw}{8139021320a6a35fdcabea18c1ea1316}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{American Journal of Human Genetics}
+      \field{number}{6}
+      \field{title}{Genetic signatures of strong recent positive selection at the lactase gene}
+      \field{volume}{74}
+      \field{year}{2004}
+      \field{pages}{1111\bibrangedash 1120}
+      \range{pages}{10}
+    \endentry
+    \entry{Labib2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ef6ce62347a200f385ca4c93f473c824}{%
+           family={Labib},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d188e3f1050cd1723517eb256c2dd6b5}{%
+           family={Tercero},
+           familyi={T\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fbd29065854ffc14f2b008f36f753d18}{%
+           family={Diffley},
+           familyi={D\bibinitperiod},
+           given={J.F.X.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{a423782c841cdce10dd3293aa6c627de}
+      \strng{fullhash}{a423782c841cdce10dd3293aa6c627de}
+      \strng{fullhashraw}{a423782c841cdce10dd3293aa6c627de}
+      \strng{bibnamehash}{a423782c841cdce10dd3293aa6c627de}
+      \strng{authorbibnamehash}{a423782c841cdce10dd3293aa6c627de}
+      \strng{authornamehash}{a423782c841cdce10dd3293aa6c627de}
+      \strng{authorfullhash}{a423782c841cdce10dd3293aa6c627de}
+      \strng{authorfullhashraw}{a423782c841cdce10dd3293aa6c627de}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5471}
+      \field{title}{Uninterrupted MCM2-7 function required for DNA replication fork progression}
+      \field{volume}{288}
+      \field{year}{2000}
+      \field{pages}{1643\bibrangedash 1647}
+      \range{pages}{5}
+    \endentry
+    \entry{Canver2015}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=3a23d8045c5018d44934b8a34d19f41e}{%
+           family={Canver},
+           familyi={C\bibinitperiod},
+           given={M.C.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a938a4445a5625654d7db1a876b3c6f5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={E.C.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e06fa5bfcfd94a99e3a7d58379b8aa47}{%
+           family={Sher},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=938dffe532c63d4916b96bf5531cc3ba}{%
+           family={Pinello},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=96e8fd2ad30c4ffdf495a13dadf08836}{%
+           family={Sanjana},
+           familyi={S\bibinitperiod},
+           given={N.E.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=180a03141508a23bb9c3fce0618abdfa}{%
+           family={Shalem},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=27099c0ff79b18ae2737d52dd65be5db}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={D.D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=febe4c373e795ca130dc2ef5ee5fb745}{%
+           family={Schinzel},
+           familyi={S\bibinitperiod},
+           given={A.R.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b0686f01e602898df36f114edd9c9282}{%
+           family={Tejoujor},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9fe8e0ca8e80430dea7e44441b909af8}{%
+           family={Mikkelsen},
+           familyi={M\bibinitperiod},
+           given={T.S.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{ec0aee8f98b3771b0c392bbfa2d9cba5}
+      \strng{fullhash}{5210ff14edbd74fd1a659d93450c881c}
+      \strng{fullhashraw}{5210ff14edbd74fd1a659d93450c881c}
+      \strng{bibnamehash}{5210ff14edbd74fd1a659d93450c881c}
+      \strng{authorbibnamehash}{5210ff14edbd74fd1a659d93450c881c}
+      \strng{authornamehash}{ec0aee8f98b3771b0c392bbfa2d9cba5}
+      \strng{authorfullhash}{5210ff14edbd74fd1a659d93450c881c}
+      \strng{authorfullhashraw}{5210ff14edbd74fd1a659d93450c881c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{BCL11A enhancer dissection by Cas9-mediated in situ saturating mutagenesis}
+      \field{volume}{527}
+      \field{year}{2015}
+      \field{pages}{192\bibrangedash 197}
+      \range{pages}{6}
+    \endentry
+    \entry{Sherry2001}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=f2c3de84a1548d29dbab5b5fa0fefb4d}{%
+           family={Sherry},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima T},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=c8d64678757700bbffb4392eea0fb950}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={M-H},
+           giveni={M\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=9d29c351c17b17152e086d01629feb5f}{%
+           family={Kholodov},
+           familyi={K\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dffffe80a1b9b0cc23bef5892cfa0860}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e474136a3a6d7e40c5c0f0872a59bfcb}{%
+           family={Phan},
+           familyi={P\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=abcec8b68a5e91de4f8bc6a4ae827364}{%
+           family={Smigielski},
+           familyi={S\bibinitperiod},
+           given={Elizabeth\bibnamedelima M},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=a4e468755ab07dede54e21de210b128b}{%
+           family={Sirotkin},
+           familyi={S\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{a87d618664f4864e944148e7bec89768}
+      \strng{fullhash}{df75e1118c1d6c6f90db7297a6f5a2ad}
+      \strng{fullhashraw}{df75e1118c1d6c6f90db7297a6f5a2ad}
+      \strng{bibnamehash}{df75e1118c1d6c6f90db7297a6f5a2ad}
+      \strng{authorbibnamehash}{df75e1118c1d6c6f90db7297a6f5a2ad}
+      \strng{authornamehash}{a87d618664f4864e944148e7bec89768}
+      \strng{authorfullhash}{df75e1118c1d6c6f90db7297a6f5a2ad}
+      \strng{authorfullhashraw}{df75e1118c1d6c6f90db7297a6f5a2ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{1}
+      \field{title}{dbSNP: the NCBI database of genetic variation}
+      \field{volume}{29}
+      \field{year}{2001}
+      \field{pages}{308\bibrangedash 311}
+      \range{pages}{4}
+    \endentry
+    \entry{ensembl}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=63040ea43c7ff3a9678d251e98936965}{%
+           family={Dyer},
+           familyi={D\bibinitperiod},
+           given={Sarah\bibnamedelima C},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=68fca24217741a2b1c00f42e66907e73}{%
+           family={Austine-Orimoloye},
+           familyi={A\bibinithyphendelim O\bibinitperiod},
+           given={Olanrewaju},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{fullhash}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{fullhashraw}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{bibnamehash}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{authorbibnamehash}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{authornamehash}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{authorfullhash}{cac4820b687edbe3bbb218f7f73ee77f}
+      \strng{authorfullhashraw}{cac4820b687edbe3bbb218f7f73ee77f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{12}
+      \field{number}{D1}
+      \field{title}{Ensembl 2025}
+      \field{volume}{53}
+      \field{year}{2024}
+      \field{pages}{D948\bibrangedash D957}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkae1071
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/nar/gkae1071
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/nar/gkae1071
+      \endverb
+    \endentry
+    \entry{Danecek2021}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=d88c1b79e00da9e80637f97e15ad1ce6}{%
+           family={Danecek},
+           familyi={D\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1d38ac75b8e75a28648a9097f9897c64}{%
+           family={Bonfield},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=dfdbc806e61c670767d223397d7fa1fc}{%
+           family={Liddle},
+           familyi={L\bibinitperiod},
+           given={Jennifer},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bf2941e49d80c7173ad9909a0cbc14f5}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d933de7abcff6841589b9799434617ca}{%
+           family={Ohan},
+           familyi={O\bibinitperiod},
+           given={Valeriu},
+           giveni={V\bibinitperiod}}}%
+        {{hash=bcdcf9174136169fc2f77309a71bfc2c}{%
+           family={Pollard},
+           familyi={P\bibinitperiod},
+           given={Martin\bibnamedelima O},
+           giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=af490944f993d0a30aff54fad4bfdbfa}{%
+           family={Whitwham},
+           familyi={W\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=cfe98cfe785b83bebea063100d45bb74}{%
+           family={Keane},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=45f0d62f6ce36514bb216fb54138b816}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Shane\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b8ed533b19638989381271500f9e1566}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Robert\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{f80c97e300d4387d2ebd0a9a5444d0fb}
+      \strng{fullhash}{cdbce5b633ca1f1c1ca4626f8a6bbd02}
+      \strng{fullhashraw}{cdbce5b633ca1f1c1ca4626f8a6bbd02}
+      \strng{bibnamehash}{cdbce5b633ca1f1c1ca4626f8a6bbd02}
+      \strng{authorbibnamehash}{cdbce5b633ca1f1c1ca4626f8a6bbd02}
+      \strng{authornamehash}{f80c97e300d4387d2ebd0a9a5444d0fb}
+      \strng{authorfullhash}{cdbce5b633ca1f1c1ca4626f8a6bbd02}
+      \strng{authorfullhashraw}{cdbce5b633ca1f1c1ca4626f8a6bbd02}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GigaScience}
+      \field{number}{2}
+      \field{title}{Twelve years of SAMtools and BCFtools}
+      \field{volume}{10}
+      \field{year}{2021}
+      \field{pages}{giab008}
+      \range{pages}{-1}
+    \endentry
+    \entry{Szklarczyk2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=dbe0af5debaadc45a90b36ea80d016d8}{%
+           family={Szklarczyk},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5e2580149beb7b94c9d6ec311b7306bf}{%
+           family={Kirsch},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b5b888d4dab199141b13427d18690d1a}{%
+           family={Koutrouli},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=bfe9e5814086d9fe293afa33f31f7ee4}{%
+           family={Nastou},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=05449a3e6355a337382bea830ab88542}{%
+           family={Mehryary},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0c68487f3c6e5723376c08b8b3ee4c94}{%
+           family={Hachilif},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=45a5c34153052706c447df3100118d47}{%
+           family={Gable},
+           familyi={G\bibinitperiod},
+           given={A.L.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd1d42b77d57f58bbf34cd50aa35e84f}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=425aa71c180189ac7801edea6e37d1bc}{%
+           family={Doncheva},
+           familyi={D\bibinitperiod},
+           given={N.T.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3df89c82c538f0ef660d5f58e6ab7a46}{%
+           family={Pyysalo},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{7fc7d6a429fce3422d18c505968eca01}
+      \strng{fullhash}{1f002f967d9d5a8e34da450db106aff5}
+      \strng{fullhashraw}{1f002f967d9d5a8e34da450db106aff5}
+      \strng{bibnamehash}{1f002f967d9d5a8e34da450db106aff5}
+      \strng{authorbibnamehash}{1f002f967d9d5a8e34da450db106aff5}
+      \strng{authornamehash}{7fc7d6a429fce3422d18c505968eca01}
+      \strng{authorfullhash}{1f002f967d9d5a8e34da450db106aff5}
+      \strng{authorfullhashraw}{1f002f967d9d5a8e34da450db106aff5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{number}{D1}
+      \field{title}{The STRING database in 2023: protein--protein association networks and functional enrichment analyses for any sequenced genome of interest}
+      \field{volume}{51}
+      \field{year}{2023}
+      \field{pages}{D638\bibrangedash D646}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkac1000
+      \endverb
+    \endentry
+    \entry{Lonsdale2013}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=7af110e12ef2d8ad728b11c4b2ffed43}{%
+           family={Lonsdale},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=29aea1e2950ea1d9bd548d591d18a37e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c9ab4fef846f0c6819a31994380dc7a5}{%
+           family={Salvatore},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5494d15bf30c6045a1114407eca4252b}{%
+           family={Phillips},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3ef030fa59f9e814d29e513b90c9097e}{%
+           family={Lo},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=dd6152132f01e8dc8bc1c440e1428308}{%
+           family={Shad},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8a45423d2849a59cd19145114894dfb2}{%
+           family={Hasz},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ef5926dda352b4cabc0340055e258ef1}{%
+           family={Walters},
+           familyi={W\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3a0df15007c459adbf2d4fca56e97cb5}{%
+           family={Garcia},
+           familyi={G\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=96bd134b7d8dced04c19286cd1ccb19c}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{35b07c2208d9042607cf84067780369d}
+      \strng{fullhash}{0d032a051c740609a2801437541085ee}
+      \strng{fullhashraw}{0d032a051c740609a2801437541085ee}
+      \strng{bibnamehash}{0d032a051c740609a2801437541085ee}
+      \strng{authorbibnamehash}{0d032a051c740609a2801437541085ee}
+      \strng{authornamehash}{35b07c2208d9042607cf84067780369d}
+      \strng{authorfullhash}{0d032a051c740609a2801437541085ee}
+      \strng{authorfullhashraw}{0d032a051c740609a2801437541085ee}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Genetics}
+      \field{number}{6}
+      \field{title}{The Genotype-Tissue Expression (GTEx) project}
+      \field{volume}{45}
+      \field{year}{2013}
+      \field{pages}{580\bibrangedash 585}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/ng.2653
+      \endverb
+    \endentry
+    \entry{Rees2018}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=303767e73ffb3dca47a13b6705647b5f}{%
+           family={Rees},
+           familyi={R\bibinitperiod},
+           given={Holly\bibnamedelima A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2ecfb1663fb9462cd0223bbbecd2a508}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{e4b112998030506b89703ab55b9f21fe}
+      \strng{fullhash}{e4b112998030506b89703ab55b9f21fe}
+      \strng{fullhashraw}{e4b112998030506b89703ab55b9f21fe}
+      \strng{bibnamehash}{e4b112998030506b89703ab55b9f21fe}
+      \strng{authorbibnamehash}{e4b112998030506b89703ab55b9f21fe}
+      \strng{authornamehash}{e4b112998030506b89703ab55b9f21fe}
+      \strng{authorfullhash}{e4b112998030506b89703ab55b9f21fe}
+      \strng{authorfullhashraw}{e4b112998030506b89703ab55b9f21fe}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{number}{12}
+      \field{title}{Base editing: precision chemistry on the genome and transcriptome of living cells}
+      \field{volume}{19}
+      \field{year}{2018}
+      \field{pages}{770\bibrangedash 788}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1038/s41576-018-0059-1
+      \endverb
+    \endentry
+    \entry{Musunuru2021}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=29e323ad31e584b8bf7451471518acf4}{%
+           family={Musunuru},
+           familyi={M\bibinitperiod},
+           given={Kiran},
+           giveni={K\bibinitperiod}}}%
+        {{hash=56dc5348de8274f1687fe7811950cc6f}{%
+           family={Chadwick},
+           familyi={C\bibinitperiod},
+           given={Alexandra\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=ddac2c34eab15efd5dfd63d04f5f0a80}{%
+           family={Mizoguchi},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{b5c0b955bef346159280b1080772fc00}
+      \strng{fullhash}{b5c0b955bef346159280b1080772fc00}
+      \strng{fullhashraw}{b5c0b955bef346159280b1080772fc00}
+      \strng{bibnamehash}{b5c0b955bef346159280b1080772fc00}
+      \strng{authorbibnamehash}{b5c0b955bef346159280b1080772fc00}
+      \strng{authornamehash}{b5c0b955bef346159280b1080772fc00}
+      \strng{authorfullhash}{b5c0b955bef346159280b1080772fc00}
+      \strng{authorfullhashraw}{b5c0b955bef346159280b1080772fc00}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7859}
+      \field{title}{In vivo CRISPR base editing of PCSK9 durably lowers cholesterol in primates}
+      \field{volume}{593}
+      \field{year}{2021}
+      \field{pages}{429\bibrangedash 434}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1038/s41586-021-03534-y
+      \endverb
+    \endentry
+    \entry{Anzalone2019}{article}{}{}
+      \name{author}{11}{}{%
+        {{hash=8276cc86c2ae450b257a3e405f7f049e}{%
+           family={Anzalone},
+           familyi={A\bibinitperiod},
+           given={Andrew\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=90f359d41d18c5803ef3e56d2e7ead80}{%
+           family={Randolph},
+           familyi={R\bibinitperiod},
+           given={Peyton\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8c842ac42f9cd0ded8fbec39819cdc87}{%
+           family={Davis},
+           familyi={D\bibinitperiod},
+           given={Jessie\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=692ef0a8dd7cefe9c4a7d04a266072d8}{%
+           family={Sousa},
+           familyi={S\bibinitperiod},
+           given={Alexander\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=da1ebd714d4b83185d6110c8e211a272}{%
+           family={Koblan},
+           familyi={K\bibinitperiod},
+           given={Luke\bibnamedelima W.},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fca41fbf79eabb5451673cebdb86f1b1}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Jonathan\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=06bbec52482bd8aa66a6ed34034e5c50}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5e93b8e18243c5095f35034fab83f30f}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1ce51505628d9f1ca6f6f6a871299cdd}{%
+           family={Newby},
+           familyi={N\bibinitperiod},
+           given={Gregory\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0b7ca92d7c005312a71e61feb4b80f6b}{%
+           family={Raguram},
+           familyi={R\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2ecfb1663fb9462cd0223bbbecd2a508}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{d849bc1f69a9999b00e0f3ab1a5acf06}
+      \strng{fullhash}{9886d1c8d1d7b43cf1263e2154647819}
+      \strng{fullhashraw}{9886d1c8d1d7b43cf1263e2154647819}
+      \strng{bibnamehash}{9886d1c8d1d7b43cf1263e2154647819}
+      \strng{authorbibnamehash}{9886d1c8d1d7b43cf1263e2154647819}
+      \strng{authornamehash}{d849bc1f69a9999b00e0f3ab1a5acf06}
+      \strng{authorfullhash}{9886d1c8d1d7b43cf1263e2154647819}
+      \strng{authorfullhashraw}{9886d1c8d1d7b43cf1263e2154647819}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{7785}
+      \field{title}{Search-and-replace genome editing without double-strand breaks or donor DNA}
+      \field{volume}{576}
+      \field{year}{2019}
+      \field{pages}{149\bibrangedash 157}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/s41586-019-1711-4
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
